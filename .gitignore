@@ -1,0 +1,8 @@
+*.gguf
+.claude
+venv/
+venv
+model/llama.cpp
+model/tiny_starcoder_py
+model/tiny_starcoder_py_fp16.gguf
+model/benchmark/
