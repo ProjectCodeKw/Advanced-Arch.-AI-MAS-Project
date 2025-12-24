@@ -1,0 +1,40 @@
+
+================================================================================
+CODE AGENT BENCHMARK RUN - 2025-12-24 16:32:08
+================================================================================
+Model: bigcode/tiny_starcoder_py (GGUF)
+Total Prompts: 50
+Successful: 50
+Failed: 0
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY STATISTICS
+────────────────────────────────────────────────────────────────────────────────
+
+EASY Category:
+  Count:           25 prompts
+  Average Time:    14.974s
+  Median Time:     21.288s
+  Min Time:        2.597s
+  Max Time:        26.233s
+  Std Deviation:   8.559s
+
+MEDIUM Category:
+  Count:           25 prompts
+  Average Time:    18.330s
+  Median Time:     20.227s
+  Min Time:        3.606s
+  Max Time:        22.516s
+  Std Deviation:   5.319s
+
+────────────────────────────────────────────────────────────────────────────────
+OVERALL STATISTICS
+────────────────────────────────────────────────────────────────────────────────
+  Total Successful: 50 prompts
+  Average Time:     16.652s
+  Median Time:      20.404s
+  Min Time:         2.597s
+  Max Time:         26.233s
+  Std Deviation:    7.253s
+
+================================================================================

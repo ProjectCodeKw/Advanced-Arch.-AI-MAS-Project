@@ -1,0 +1,1539 @@
+======================================================================
+CODE AGENT RESPONSES
+Model: bigcode/tiny_starcoder_py (GGUF)
+Date: 2025-12-24 16:18:13
+======================================================================
+
+======================================================================
+RESPONSE #1 (easy)
+======================================================================
+Prompt: Write a Python function to calculate factorial of a number
+----------------------------------------------------------------------
+Generated Code:
+#   def factorial(n):
+#       if n == 0:
+#           return 1
+#       else:
+#           return n * factorial(n - 1)
+#
+# The factorial function returns the factorial of a number.
+#
+# Example 1:
+#
+# Input: n = 12
+# Output: 12
+# Explanation: The factorial of 12 is 12.
+#
+# Example 2:
+#
+# Input: n = 3
+# Output: 3
+# Explanation: The factorial of 3 is 3.
+#
+# Example 3:
+#
+# Input: n = 5
+# Output: 5
+# Explanation: The factorial of 5 is 5.
+#
+# Note:
+#
+# n is a positive integer, n is guaranteed to be a positive integer.
+#
+#
+
+class Solution:
+    def factorial(self, n: int) -> int:
+        if n == 0:
+            return 1
+        else:
+            return n * self.factorial(n - 1)
+======================================================================
+Execution time: 26.233s
+
+
+======================================================================
+RESPONSE #2 (easy)
+======================================================================
+Prompt: Create a function to reverse a string
+----------------------------------------------------------------------
+Generated Code:
+# reverse("Hello")
+# 
+# Description:
+# Given a string, reverse it.
+# 
+# Example:
+# Input: "Hello"
+# Output: "Hey"
+# Explanation:
+# "Hello" is reverse of "Hey".
+# 
+# Example:
+# Input: "Hello"
+# Output: "Hello"
+# Explanation:
+# "Hello" is reverse of "Hello".
+# 
+# Example:
+# Input: "Hello"
+# Output: "Hello"
+# Explanation:
+# "Hello" is reverse of "Hello".
+# 
+# Note:
+# 
+# 1 <= length <= 1000
+# 1 <= input.length <= 1000
+# 1 <= input[i] <= 1000
+# 1 <= input[i] + 1 <= 1000
+# 1 <= input[i] + 2 <= 1000
+# 1 <= input[i] + 3 <= 1000
+# 1 <= input[i] + 4 <= 100
+======================================================================
+Execution time: 21.927s
+
+
+======================================================================
+RESPONSE #3 (easy)
+======================================================================
+Prompt: Write code to check if a number is prime
+----------------------------------------------------------------------
+Generated Code:
+#   def isPrime(n):
+#     if n == 2:
+#         return True
+#     if n == 3:
+#         return False
+#     if n == 5:
+#         return True
+#     if n == 7:
+#         return False
+#     if n == 11:
+#         return True
+#     if n == 13:
+#         return False
+#     if n == 17:
+#         return True
+#     if n == 19:
+#         return False
+#     if n == 23:
+#         return True
+#     if n == 29:
+#         return False
+#     if n == 31:
+#         return False
+#     if n == 37:
+#         return True
+#     if n == 43:
+#         return False
+#     if n == 49:
+#         return True
+#     if n == 57:
+#         return False
+#     if n == 61:
+#         return True
+#     if n == 67:
+#
+======================================================================
+Execution time: 22.198s
+
+
+======================================================================
+RESPONSE #4 (easy)
+======================================================================
+Prompt: Generate a function to find the maximum in a list
+----------------------------------------------------------------------
+Generated Code:
+#     def find_max(nums):
+#         max_num = nums[0]
+#         for num in nums[1:]:
+#             if num > max_num:
+#                 max_num = num
+#         return max_num
+#
+======================================================================
+Execution time: 5.077s
+
+
+======================================================================
+RESPONSE #5 (easy)
+======================================================================
+Prompt: Write a function to calculate the sum of all elements in a list
+----------------------------------------------------------------------
+Generated Code:
+# def sum_of_numbers(numbers):
+#     return sum(numbers)
+#
+#
+======================================================================
+Execution time: 2.597s
+
+
+======================================================================
+RESPONSE #6 (easy)
+======================================================================
+Prompt: Create code to convert Celsius to Fahrenheit
+----------------------------------------------------------------------
+Generated Code:
+# 
+# 1. Create a function called convert_celsius_to_fahrenheit
+# 2. Convert the input value to Fahrenheit
+# 3. Return the converted value
+# 4. Print the result
+# 5. Exit the program
+# 6. Input the value of the variable 'celsius'
+# 7. Output the converted value
+# 8. Exit the program
+# 9. Input the value of the variable 'fahrenheit'
+# 10. Output the converted value
+# 11. Exit the program
+# 12. Input the value of the variable 'kelvin'
+# 13. Output the converted value
+# 14. Exit the program
+# 15. Input the value of the variable 'kelvin'
+# 16. Output the converted value
+# 17. Exit the program
+# 18. Input the value of the variable 'kelvin'
+# 19. Output the converted value
+# 20. Exit the program
+# 21. Input the value of the variable 'celsius'
+# 22. Output
+======================================================================
+Execution time: 21.642s
+
+
+======================================================================
+RESPONSE #7 (easy)
+======================================================================
+Prompt: Write a function to check if a string is a palindrome
+----------------------------------------------------------------------
+Generated Code:
+#   def isPalindrome(s):
+#     """
+#     :type s: str
+#     :rtype: bool
+#     """
+#     if not s:
+#         return False
+#     if s[0] != s[-1]:
+#         return False
+#     return isPalindrome(s[1:-1])
+#
+#
+======================================================================
+Execution time: 7.430s
+
+
+======================================================================
+RESPONSE #8 (easy)
+======================================================================
+Prompt: Generate code to count vowels in a string
+----------------------------------------------------------------------
+Generated Code:
+#   python count_vowels.py
+
+# Import the necessary packages
+import re
+
+# Define a function to count vowels in a string
+def count_vowels(s):
+    vowels = {'a', 'e', 'i', 'o', 'u'}
+    vowels_count = 0
+    for letter in s:
+        if letter in vowels:
+            vowels_count += 1
+    return vowels_count
+
+# Call the function to count vowels in a string
+print(count_vowels('a'))
+print(count_vowels('e'))
+print(count_vowels('i'))
+print(count_vowels('o'))
+print(count_vowels('u'))
+======================================================================
+Execution time: 14.982s
+
+
+======================================================================
+RESPONSE #9 (easy)
+======================================================================
+Prompt: Write a function to remove duplicates from a list
+----------------------------------------------------------------------
+Generated Code:
+#   def removeDuplicates(l):
+#       """
+#       :type l: List[int]
+#       :rtype: List[int]
+#       """
+#       return [x for x in l if x not in l[0]]
+#
+#
+# def removeDuplicates(l):
+#     """
+#       :type l: List[int]
+#       :rtype: List[int]
+#       """
+#     return [x for x in l if x not in l[0]]
+#
+#
+# def removeDuplicates(l):
+#     """
+#       :type l: List[int]
+#       :rtype: List[int]
+#       """
+#     return [x for x in l if x not in l[0]]
+#
+#
+# def removeDuplicates(l):
+#     """
+#       :type l: List[int]
+#       :rtype: List[int]
+#       """
+#     return [x for x in l if x not in l[0]]
+#
+#
+# def removeDuplicates(l):
+#     """
+#       :type l: List
+======================================================================
+Execution time: 22.270s
+
+
+======================================================================
+RESPONSE #10 (easy)
+======================================================================
+Prompt: Create code to find the length of a string without using len()
+----------------------------------------------------------------------
+Generated Code:
+#     def length(self, s):
+#         return len(s)
+#
+======================================================================
+Execution time: 2.759s
+
+
+======================================================================
+RESPONSE #11 (easy)
+======================================================================
+Prompt: Write a function to calculate the average of numbers in a list
+----------------------------------------------------------------------
+Generated Code:
+# def average(numbers):
+#     return sum(numbers)/len(numbers)
+#
+#
+#
+======================================================================
+Execution time: 3.197s
+
+
+======================================================================
+RESPONSE #12 (easy)
+======================================================================
+Prompt: Generate code to swap two variables
+----------------------------------------------------------------------
+Generated Code:
+#  1. Swap two variables
+#  2. Swap two variables
+#  3. Swap two variables
+#  4. Swap two variables
+#  5. Swap two variables
+#  6. Swap two variables
+#  7. Swap two variables
+#  8. Swap two variables
+#  9. Swap two variables
+#  10. Swap two variables
+#  11. Swap two variables
+#  12. Swap two variables
+#  13. Swap two variables
+#  14. Swap two variables
+#  15. Swap two variables
+#  16. Swap two variables
+#  17. Swap two variables
+#  18. Swap two variables
+#  19. Swap two variables
+#  20. Swap two variables
+#  21. Swap two variables
+#  22. Swap two variables
+#  23. Swap two variables
+#  24. Swap two variables
+#  25. Swap two variables
+#  26. Swap two variables
+#  27. Swap two variables
+#  28. Swap two variables
+#  29. Swap two variables
+#  30
+======================================================================
+Execution time: 21.288s
+
+
+======================================================================
+RESPONSE #13 (easy)
+======================================================================
+Prompt: Write a function to check if a number is even or odd
+----------------------------------------------------------------------
+Generated Code:
+#   def is_even(n):
+#     if n % 2 == 0:
+#         return False
+#     else:
+#         return True
+#
+======================================================================
+Execution time: 4.368s
+
+
+======================================================================
+RESPONSE #14 (easy)
+======================================================================
+Prompt: Create code to find the minimum element in a list
+----------------------------------------------------------------------
+Generated Code:
+#     def minElement(self, nums: List[int]) -> int:
+#         """
+#         :type nums: List[int]
+#         :rtype: int
+#         """
+#         min_num = nums[0]
+#         for i in range(1, len(nums)):
+#             if nums[i] < min_num:
+#                 min_num = nums[i]
+#         return min_num
+======================================================================
+Execution time: 8.926s
+
+
+======================================================================
+RESPONSE #15 (easy)
+======================================================================
+Prompt: Write a function to capitalize first letter of each word
+----------------------------------------------------------------------
+Generated Code:
+#   def capitalize(word):
+#       return word[0].upper() + word[1:]
+#   print(capitalize('Hello World'))
+======================================================================
+Execution time: 3.979s
+
+
+======================================================================
+RESPONSE #16 (easy)
+======================================================================
+Prompt: Generate code to check if a list is empty
+----------------------------------------------------------------------
+Generated Code:
+#  1. Create a list of numbers
+#  2. Check if the list is empty
+#  3. If not, print "No list is empty"
+#  4. If list is empty, print "List is empty"
+#  5. If list is empty, print "List is empty"
+#  6. If list is empty, print "List is empty"
+#  7. If list is empty, print "List is empty"
+#  8. If list is empty, print "List is empty"
+#  9. If list is empty, print "List is empty"
+#  10. Print the list
+#  11. Print the list
+#  12. Print the list
+#  13. Print the list
+#  14. Print the list
+#  15. Print the list
+#  16. Print the list
+#  17. Print the list
+#  18. Print the list
+#  19. Print the list
+#  20. Print the list
+#  21. Print the list
+#  22. Print the list
+#  23. Print the
+======================================================================
+Execution time: 22.469s
+
+
+======================================================================
+RESPONSE #17 (easy)
+======================================================================
+Prompt: Write a function to multiply all elements in a list
+----------------------------------------------------------------------
+Generated Code:
+#     def multiply(a, b):
+#         return a * b
+#
+#     print(multiply([1, 2, 3], [4, 5, 6]))
+#
+======================================================================
+Execution time: 4.690s
+
+
+======================================================================
+RESPONSE #18 (easy)
+======================================================================
+Prompt: Create code to convert a string to uppercase
+----------------------------------------------------------------------
+Generated Code:
+#  1. Create a function that takes a string and returns a string
+#  2. Create a function that takes a string and returns a string
+#  3. Create a function that takes a string and returns a string
+#  4. Create a function that takes a string and returns a string
+#  5. Create a function that takes a string and returns a string
+#  6. Create a function that takes a string and returns a string
+#  7. Create a function that takes a string and returns a string
+#  8. Create a function that takes a string and returns a string
+#  9. Create a function that takes a string and returns a string
+#  10. Create a function that takes a string and returns a string
+#  11. Create a function that takes a string and returns a string
+#  12. Create a function that takes a string and returns a string
+#  13. Create a function that takes a string and returns a string
+#  14. Create a function that takes a string and returns a string
+#  15. Create a function that takes a string and returns a string
+#  16. Create a function that takes
+======================================================================
+Execution time: 21.499s
+
+
+======================================================================
+RESPONSE #19 (easy)
+======================================================================
+Prompt: Write a function to calculate the power of a number
+----------------------------------------------------------------------
+Generated Code:
+# def power(n):
+#     return n ** 2
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+======================================================================
+Execution time: 21.946s
+
+
+======================================================================
+RESPONSE #20 (easy)
+======================================================================
+Prompt: Generate code to find the index of an element in a list
+----------------------------------------------------------------------
+Generated Code:
+#   import random
+#   list = [random.randint(1, 100) for i in range(100)]
+#   print(list)
+#   print(list.index(1))
+#   print(list.index(2))
+#   print(list.index(3))
+#   print(list.index(4))
+#   print(list.index(5))
+#   print(list.index(6))
+#   print(list.index(7))
+#   print(list.index(8))
+#   print(list.index(9))
+#   print(list.index(10))
+#   print(list.index(11))
+#   print(list.index(12))
+#   print(list.index(13))
+#   print(list.index(14))
+#   print(list.index(15))
+#   print(list.index(16))
+#   print(list.index(17))
+#   print(list.index(18))
+#   print(list.index(19))
+======================================================================
+Execution time: 22.386s
+
+
+======================================================================
+RESPONSE #21 (easy)
+======================================================================
+Prompt: Write a function to check if a year is a leap year
+----------------------------------------------------------------------
+Generated Code:
+#   def isLeapYear(year):
+#       if year % 4 == 0 and year % 100 != 0:
+#           return True
+#       else:
+#           return False
+#
+# The function should return true if the year is a leap year, false otherwise.
+#
+# Example 1:
+# Input: year = 2014
+# Output: true
+# Example 2:
+# Input: year = 2014
+# Output: false
+#
+# Constraints:
+#
+# 1 <= year <= 100
+# 1 <= year > 100
+#
+#
+
+# @lc code=start
+class Solution:
+    def isLeapYear(self, year: int) -> bool:
+        if year % 4 == 0 and year % 100 != 0:
+            return True
+        else:
+            return False
+# @lc code=end
+======================================================================
+Execution time: 18.612s
+
+
+======================================================================
+RESPONSE #22 (easy)
+======================================================================
+Prompt: Create code to concatenate two strings
+----------------------------------------------------------------------
+Generated Code:
+#  1. Create a list of strings
+#  2. Concatenate the strings
+#  3. Print the concatenated string
+#  4. Print the concatenated string
+#  5. Concatenate the strings
+#  6. Print the concatenated string
+#  7. Concatenate the strings
+#  8. Print the concatenated string
+#  9. Concatenate the strings
+#  10. Concatenate the strings
+#  11. Concatenate the strings
+#  12. Concatenate the strings
+#  13. Concatenate the strings
+#  14. Concatenate the strings
+#  15. Concatenate the strings
+#  16. Concatenate the strings
+#  17. Concatenate the strings
+#  18. Concatenate the strings
+#  19. Concatenate the strings
+#  20. Concatenate the strings
+#  21. Concatenate the strings
+#  22. Concatenate the strings
+#  23. Concatenate the strings
+#  24. Concatenate the strings
+#  25. Concatenate the strings
+#  26. Concatenate the strings
+======================================================================
+Execution time: 22.163s
+
+
+======================================================================
+RESPONSE #23 (easy)
+======================================================================
+Prompt: Write a function to count occurrences of a character in a string
+----------------------------------------------------------------------
+Generated Code:
+#   def count_occurrences(s):
+#       """
+#       :type s: str
+#       :rtype: int
+#       """
+#       count = 0
+#       for c in s:
+#           if c == ' ':
+#               count += 1
+#           else:
+#               count -= 1
+#       return count
+#
+======================================================================
+Execution time: 7.610s
+
+
+======================================================================
+RESPONSE #24 (easy)
+======================================================================
+Prompt: Generate code to create a list of even numbers from 1 to 20
+----------------------------------------------------------------------
+Generated Code:
+#  1. Create a list of even numbers from 1 to 20
+#  2. Print the list
+#  3. Print the list in reverse order
+#  4. Print the list in reverse order in reverse order
+#  5. Print the list in reverse order in reverse order
+#  6. Print the list in reverse order in reverse order
+#  7. Print the list in reverse order in reverse order
+#  8. Print the list in reverse order in reverse order
+#  9. Print the list in reverse order in reverse order in reverse order
+#  10. Print the list in reverse order in reverse order in reverse order
+#  11. Print the list in reverse order in reverse order in reverse order
+#  12. Print the list in reverse order in reverse order in reverse order
+#  13. Print the list in reverse order in reverse order in reverse order in reverse order
+#  14. Print the list in reverse order in reverse order in reverse order in reverse order
+#  15. Print the list in reverse order in reverse order in reverse order in reverse order
+#  16. Print the list in reverse order in reverse order in
+======================================================================
+Execution time: 22.054s
+
+
+======================================================================
+RESPONSE #25 (easy)
+======================================================================
+Prompt: Write a function to calculate the absolute value of a number
+----------------------------------------------------------------------
+Generated Code:
+#   def abs(x):
+#       return abs(x)
+#   print(abs(10))
+#   print(abs(10.0))
+#   print(abs(10.0.0))
+#   print(abs(10.0.0.0))
+#   print(abs(10.0.0.0))
+#   print(abs(10.0.0.0.0))
+#   print(abs(10.0.0.0.0))
+#   print(abs(10.0.0.0.0))
+#   print(abs(10.0.0.0.0))
+#   print(abs(10.0.0.0.0))
+#   print(abs(10.0.0.0.0))
+#   print(abs(10.0.0.0.0))
+#   print(abs(10.0.0.0.0))
+#   print(abs(10.0.0.0.0))
+#   print(abs(10.0
+======================================================================
+Execution time: 22.054s
+
+
+======================================================================
+RESPONSE #26 (medium)
+======================================================================
+Prompt: Write a function to implement bubble sort algorithm
+----------------------------------------------------------------------
+Generated Code:
+#     def bubble_sort(arr):
+#         for i in range(1, len(arr)):
+#             for j in range(i - 1, 0, -1):
+#                 if arr[j] > arr[j - 1]:
+#                     arr[j], arr[j - 1] = arr[j - 1], arr[j]
+#     bubble_sort([1, 2, 3, 4, 5, 6, 7, 8, 9])
+#     print(bubble_sort([1, 2, 3, 4, 5, 6, 7, 8, 9]))
+======================================================================
+Execution time: 15.733s
+
+
+======================================================================
+RESPONSE #27 (medium)
+======================================================================
+Prompt: Create code to find the second largest number in a list
+----------------------------------------------------------------------
+Generated Code:
+#   https://www.hackerrank.com/challenges/find-the-second-largest-number-in-a-list/problem
+#
+# Description:
+# Given a list of integers, find the second largest number in the list.
+#
+# Example 1:
+# Input: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# Output: 3
+# Explanation: The first largest number in the list is 3.
+# Example 2:
+# Input: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# Output: 4
+# Explanation: The first largest number in the list is 4.
+# Example 3:
+# Input: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# Output: 5
+# Explanation: The first largest number in the list is 5.
+# Example 4:
+# Input: [1, 2, 3, 4,
+======================================================================
+Execution time: 22.233s
+
+
+======================================================================
+RESPONSE #28 (medium)
+======================================================================
+Prompt: Write a function to merge two sorted lists
+----------------------------------------------------------------------
+Generated Code:
+#  1. Write a function to merge two sorted lists
+#  2. Write a function to merge two sorted lists
+#  3. Write a function to merge two sorted lists
+#  4. Write a function to merge two sorted lists
+#  5. Write a function to merge two sorted lists
+#  6. Write a function to merge two sorted lists
+#  7. Write a function to merge two sorted lists
+#  8. Write a function to merge two sorted lists
+#  9. Write a function to merge two sorted lists
+#  10. Write a function to merge two sorted lists
+#  11. Write a function to merge two sorted lists
+#  12. Write a function to merge two sorted lists
+#  13. Write a function to merge two sorted lists
+#  14. Write a function to merge two sorted lists
+#  15. Write a function to merge two sorted lists
+#  16. Write a function to merge two sorted lists
+#  17. Write a function to merge two sorted lists
+#  18. Write a function to merge two sorted lists
+#  19. Write a function to merge two sorted lists
+======================================================================
+Execution time: 22.000s
+
+
+======================================================================
+RESPONSE #29 (medium)
+======================================================================
+Prompt: Generate code to implement a stack using a list
+----------------------------------------------------------------------
+Generated Code:
+#   https://www.geeksforgeeks.org/python-stack-using-a-list/
+#   https://www.geeksforgeeks.org/python-stack-using-a-list-with-a-while/
+#   https://www.geeksforgeeks.org/python-stack-using-a-list-with-a-for-loop/
+#   https://www.geeksforgeeks.org/python-stack-using-a-list-with-a-for-loop-with-a-while/
+#   https://www.geeksforgeeks.org/python-stack-using-a-list-with-a-for-loop-with-a-for-loop/
+#   https://www.geeksforgeeks.org/python-stack-using-a-list-with-a-for-loop-with-a-for-loop/
+#   https://www.geeksforgeeks.org/python-stack-using-a-list-with-a-for-loop-with-a-for-loop/
+#   https://www.geeksforgeeks.org
+======================================================================
+Execution time: 20.644s
+
+
+======================================================================
+RESPONSE #30 (medium)
+======================================================================
+Prompt: Write a function to find all prime numbers up to n
+----------------------------------------------------------------------
+Generated Code:
+#   def findPrime(n):
+#       if n == 2:
+#         return 2
+#       if n == 3:
+#         return 3
+#       if n == 5:
+#         return 5
+#       if n == 7:
+#         return 7
+#       if n == 11:
+#         return 11
+#       if n == 13:
+#         return 13
+#       if n == 17:
+#         return 17
+#       if n == 19:
+#         return 19
+#       if n == 21:
+#         return 21
+#       if n == 23:
+#         return 23
+#       if n == 27:
+#         return 27
+#       if n == 31:
+#         return 31
+#       if n == 33:
+#         return 33
+#       if n == 37:
+#         return 37
+#       if n == 41:
+#         return 41
+======================================================================
+Execution time: 19.398s
+
+
+======================================================================
+RESPONSE #31 (medium)
+======================================================================
+Prompt: Create code to reverse words in a sentence
+----------------------------------------------------------------------
+Generated Code:
+# https://www.hackerrank.com/challenges/reverse-words-in-a-sentence/problem
+
+import re
+
+def reverseWords(sentence):
+    # Write your code here
+    words = sentence.split()
+    reverseWords = []
+    for word in words:
+        reverseWords.append(word[::-1])
+    return reverseWords
+
+# Test case:
+# Input: sentence = "The quick brown fox jumps over the lazy dog"
+# Output: ["The", "quick", "brown", "fox", "jumps", "over", "the", "quick", "brown", "fox", "jumps", "over", "the", "quick", "brown", "fox", "jumps", "over", "the", "quick", "brown", "fox", "jumps", "over", "the", "quick", "brown", "fox", "jumps", "over", "the", "quick", "brown", "fox", "jumps", "over", "the", "quick", "brown", "fox", "jumps", "over", "the", "quick", "brown", "fox", "jumps", "over", "
+======================================================================
+Execution time: 19.427s
+
+
+======================================================================
+RESPONSE #32 (medium)
+======================================================================
+Prompt: Write a function to check if two strings are anagrams
+----------------------------------------------------------------------
+Generated Code:
+#   def isAnagram(s1, s2):
+#     return s1 == s2
+#
+# Given two strings s1 and s2, determine if they are anagrams.
+#
+# Example 1:
+# Input: s1 = "ab", s2 = "cd"
+# Output: true
+# Example 2:
+# Input: s1 = "ab", s2 = "cd"
+# Output: false
+#
+# Note:
+#
+# s1 and s2 consist of lowercase English letters.
+#
+#
+#
+
+class Solution:
+    def isAnagram(self, s1: str, s2: str) -> bool:
+        if len(s1) != len(s2):
+            return False
+        if len(s1) < len(s2):
+            return self.isAnagram(s2, s1)
+        else:
+            return self.isAnagram(s1, s2)
+
+    def isAnagram2(self, s1: str, s2: str) -> bool:
+        if len(s1) != len(s2):
+            return False
+        if len(s1)
+======================================================================
+Execution time: 20.227s
+
+
+======================================================================
+RESPONSE #33 (medium)
+======================================================================
+Prompt: Generate code to implement binary search
+----------------------------------------------------------------------
+Generated Code:
+#   https://www.hackerrank.com/challenges/binary-search/problem
+#   https://www.hackerrank.com/contests/binary-search/challenges/
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the binarySearch function below.
+def binarySearch(arr, target):
+    low = 0
+    high = len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] > target:
+            high = mid - 1
+        else:
+            low = mid + 1
+    return -1
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input())
+
+    arr = list(map(int, input().rstrip().split()))
+
+    result = binarySearch(arr, 0)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+======================================================================
+Execution time: 19.645s
+
+
+======================================================================
+RESPONSE #34 (medium)
+======================================================================
+Prompt: Write a function to find common elements in two lists
+----------------------------------------------------------------------
+Generated Code:
+# 1. Write a function to find the common elements in two lists
+# 2. Write a function to find the common elements in two lists
+# 3. Write a function to find the common elements in two lists
+# 4. Write a function to find the common elements in two lists
+# 5. Write a function to find the common elements in two lists
+# 6. Write a function to find the common elements in two lists
+# 7. Write a function to find the common elements in two lists
+# 8. Write a function to find the common elements in two lists
+# 9. Write a function to find the common elements in two lists
+# 10. Write a function to find the common elements in two lists
+# 11. Write a function to find the common elements in two lists
+# 12. Write a function to find the common elements in two lists
+# 13. Write a function to find the common elements in two lists
+# 14. Write a function to find the common elements in two lists
+# 15. Write a function to find the common elements in two lists
+# 16. Write a function to find
+======================================================================
+Execution time: 22.108s
+
+
+======================================================================
+RESPONSE #35 (medium)
+======================================================================
+Prompt: Create code to rotate a list by n positions
+----------------------------------------------------------------------
+Generated Code:
+#   rotate_list(n) = rotate_list(n, 0, len(list))
+#   rotate_list(n, 1, len(list))
+#   rotate_list(n, 2, len(list))
+#   rotate_list(n, 3, len(list))
+#   rotate_list(n, 4, len(list))
+#   rotate_list(n, 5, len(list))
+#   rotate_list(n, 6, len(list))
+#   rotate_list(n, 7, len(list))
+#   rotate_list(n, 8, len(list))
+#   rotate_list(n, 9, len(list))
+#   rotate_list(n, 10, len(list))
+#   rotate_list(n, 11, len(list))
+#   rotate_list(n, 12, len(list))
+#   rotate_list(n, 13, len(list))
+#   rotate_list(n, 14, len(list))
+#   rotate_
+======================================================================
+Execution time: 16.680s
+
+
+======================================================================
+RESPONSE #36 (medium)
+======================================================================
+Prompt: Write a function to flatten a nested list
+----------------------------------------------------------------------
+Generated Code:
+#   def flatten(l):
+#       for i in l:
+#           yield i
+#   print(flatten([1, 2, 3, 4]))
+#   print(flatten([1, 2, 3, 4, 5]))
+#   print(flatten([1, 2, 3, 4, 5, 6]))
+#   print(flatten([1, 2, 3, 4, 5, 6, 7]))
+======================================================================
+Execution time: 8.183s
+
+
+======================================================================
+RESPONSE #37 (medium)
+======================================================================
+Prompt: Generate code to implement a queue using two stacks
+----------------------------------------------------------------------
+Generated Code:
+#   https://www.geeksforgeeks.org/python-queue-using-two-stacks/
+#
+# The queue is a stack that is used to store the elements of a queue.
+# The queue is empty when the stack is empty.
+#
+# The queue is defined by a list of integers, where each integer is the number of elements in the queue.
+#
+# For example, given the queue [1,2,3,4,5], the output should be
+# [1, 2, 3, 4, 5].
+#
+# Note:
+#
+# The size of the queue is in the range [1, 1000].
+# The size of the stack is in the range [1, 1000].
+# The size of the stack is in the range [1, 1000].
+# The size of the stack is in the range [1, 1000].
+# The size of the stack is in the range [1, 1000].
+# The size of the stack is in the range [1, 1000].
+# The size of
+======================================================================
+Execution time: 21.205s
+
+
+======================================================================
+RESPONSE #38 (medium)
+======================================================================
+Prompt: Write a function to find the longest word in a sentence
+----------------------------------------------------------------------
+Generated Code:
+# https://www.hackerrank.com/challenges/longest-word-in-a-sentence/problem
+# Score: 100
+# Language: Python
+
+# Complete the longestWord function below.
+def longestWord(sentence):
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    # Your code here
+    #
+======================================================================
+Execution time: 22.271s
+
+
+======================================================================
+RESPONSE #39 (medium)
+======================================================================
+Prompt: Create code to remove all whitespace from a string
+----------------------------------------------------------------------
+Generated Code:
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace from a string
+#   - Remove all whitespace
+======================================================================
+Execution time: 22.516s
+
+
+======================================================================
+RESPONSE #40 (medium)
+======================================================================
+Prompt: Write a function to check if parentheses are balanced
+----------------------------------------------------------------------
+Generated Code:
+# def is_balanced(s):
+#     if len(s) == 0:
+#         return True
+#     else:
+#         return False
+
+# # Driver Code
+# s = "()()()()()"
+# print(is_balanced(s))
+# s = "()()()()()"
+# print(is_balanced(s))
+# s = "()()()()()"
+# print(is_balanced(s))
+# s = "()()()()()"
+# print(is_balanced(s))
+# s = "()()()()()"
+# print(is_balanced(s))
+# s = "()()()()()"
+# print(is_balanced(s))
+# s = "()()()()()"
+# print(is_balanced(s))
+# s = "()()()()()"
+# print(is_balanced(s))
+# s = "()()()()()"
+# print(is_balanced(s))
+# s = "()()()()()"
+# print(is_balanced(s))
+# s = "()()()()()"
+# print(is
+======================================================================
+Execution time: 18.749s
+
+
+======================================================================
+RESPONSE #41 (medium)
+======================================================================
+Prompt: Generate code to find the intersection of two sets
+----------------------------------------------------------------------
+Generated Code:
+# https://www.hackerrank.com/challenges/find-intersection-of-two-sets/problem
+
+# Solution:
+# https://www.hackerrank.com/challenges/find-intersection-of-two-sets/problem
+
+# Solution:
+# https://www.hackerrank.com/challenges/find-intersection-of-two-sets/problem
+
+# Solution:
+# https://www.hackerrank.com/challenges/find-intersection-of-two-sets/problem
+
+# Solution:
+# https://www.hackerrank.com/challenges/find-intersection-of-two-sets/problem
+
+# Solution:
+# https://www.hackerrank.com/challenges/find-intersection-of-two-sets/problem
+
+# Solution:
+# https://www.hackerrank.com/challenges/find-intersection-of-two-sets/problem
+
+# Solution:
+# https://www.hackerrank.com/challenges/find-intersection-of-two-sets/problem
+
+# Solution:
+# https://www.hackerrank.com/challenges/find-intersection
+======================================================================
+Execution time: 20.771s
+
+
+======================================================================
+RESPONSE #42 (medium)
+======================================================================
+Prompt: Write a function to calculate Fibonacci sequence up to n terms
+----------------------------------------------------------------------
+Generated Code:
+# def fibonacci(n):
+#     if n == 0:
+#         return 0
+#     return fibonacci(n-1) + fibonacci(n-2)
+
+# Driver Code
+n = int(input())
+
+# Driver Code
+print(fibonacci(n))
+======================================================================
+Execution time: 5.706s
+
+
+======================================================================
+RESPONSE #43 (medium)
+======================================================================
+Prompt: Create code to sort a dictionary by values
+----------------------------------------------------------------------
+Generated Code:
+#  1. Create a dictionary with the keys as the keys and values as the values
+#  2. Sort the dictionary by the values
+#  3. Print the sorted dictionary
+#  4. Print the sorted dictionary in a new line
+#  5. Print the sorted dictionary in a new line
+#  6. Print the sorted dictionary in a new line
+#  7. Print the sorted dictionary in a new line
+#  8. Print the sorted dictionary in a new line
+#  9. Print the sorted dictionary in a new line
+#  10. Print the sorted dictionary in a new line
+#  11. Print the sorted dictionary in a new line
+#  12. Print the sorted dictionary in a new line
+#  13. Print the sorted dictionary in a new line
+#  14. Print the sorted dictionary in a new line
+#  15. Print the sorted dictionary in a new line
+#  16. Print the sorted dictionary in a new line
+#  17. Print the sorted dictionary in a new line
+#  18. Print the sorted dictionary in a new line
+#  19. Print the sorted dictionary in a new line
+======================================================================
+Execution time: 22.198s
+
+
+======================================================================
+RESPONSE #44 (medium)
+======================================================================
+Prompt: Write a function to remove all non-alphanumeric characters
+----------------------------------------------------------------------
+Generated Code:
+#   def remove_non_alphanumeric(s):
+#       return ''.join(ch for ch in s if ch.isalnum())
+#
+======================================================================
+Execution time: 3.606s
+
+
+======================================================================
+RESPONSE #45 (medium)
+======================================================================
+Prompt: Generate code to find the mode of a list
+----------------------------------------------------------------------
+Generated Code:
+# 1. Create a list of numbers from 1 to 100.
+# 2. Create a list of numbers from 1 to 1000.
+# 3. Create a list of numbers from 1 to 10000.
+# 4. Create a list of numbers from 1 to 100000.
+# 5. Create a list of numbers from 1 to 1000000.
+# 6. Create a list of numbers from 1 to 10000000.
+# 7. Create a list of numbers from 1 to 100000000.
+# 8. Create a list of numbers from 1 to 1000000000.
+# 9. Create a list of numbers from 1 to 1000000000.
+# 10. Create a list of numbers from 1 to 100000000000.
+# 11. Create a list of numbers from 1 to 100000
+======================================================================
+Execution time: 19.251s
+
+
+======================================================================
+RESPONSE #46 (medium)
+======================================================================
+Prompt: Write a function to convert a decimal number to binary
+----------------------------------------------------------------------
+Generated Code:
+#   def convert(num):
+#     return bin(num)[2:]
+#
+# 1. Write a function to convert a decimal number to hexadecimal
+# Python code:
+#   def convert(num):
+#     return '#%02x' % num
+#
+# 2. Write a function to convert a decimal number to binary
+# Python code:
+#   def convert(num):
+#     return '%02x' % num
+#
+# 3. Write a function to convert a decimal number to hexadecimal
+# Python code:
+#   def convert(num):
+#     return '%02x' % num
+#
+# 4. Write a function to convert a decimal number to binary
+# Python code:
+#   def convert(num):
+#     return '%02x' % num
+#
+# 5. Write a function to convert a decimal number to hexadecimal
+# Python code:
+#   def convert(num):
+#     return '%02x' % num
+#
+# 6. Write a function to convert a decimal number to binary
+# Python code:
+#   def convert(num):
+#
+======================================================================
+Execution time: 19.733s
+
+
+======================================================================
+RESPONSE #47 (medium)
+======================================================================
+Prompt: Create code to implement selection sort
+----------------------------------------------------------------------
+Generated Code:
+#  1. Create a list of numbers from 1 to 100.
+#  2. Create a list of numbers from 1 to 1000.
+#  3. Create a list of numbers from 1 to 100000.
+#  4. Create a list of numbers from 1 to 10000000.
+#  5. Create a list of numbers from 1 to 100000000.
+#  6. Create a list of numbers from 1 to 1000000000.
+#  7. Create a list of numbers from 1 to 10000000000.
+#  8. Create a list of numbers from 1 to 100000000000.
+#  9. Create a list of numbers from 1 to 1000000000000.
+#  10. Create a list of numbers from 1 to 100000000000000.
+#  11
+======================================================================
+Execution time: 20.874s
+
+
+======================================================================
+RESPONSE #48 (medium)
+======================================================================
+Prompt: Write a function to find all substrings of a string
+----------------------------------------------------------------------
+Generated Code:
+#   findSubstring('abc', 'abc') → ['abc', 'abc']
+#   findSubstring('abc', 'abc', 2) → ['abc', 'abc', 'abc']
+#   findSubstring('abc', 'abc', 3) → ['abc', 'abc', 'abc', 'abc']
+#   findSubstring('abc', 'abc', 4) → ['abc', 'abc', 'abc', 'abc', 'abc']
+#   findSubstring('abc', 'abc', 5) → ['abc', 'abc', 'abc', 'abc', 'abc', 'abc']
+#   findSubstring('abc', 'abc', 6) → ['abc', 'abc', 'abc', 'abc', 'abc', 'abc', 'abc']
+#   findSubstring('abc', 'abc', 7) → ['abc', 'abc', 'abc', 'abc', 'abc', 'abc', 'abc']
+#   findSubstring('abc', 'abc', 8) → ['abc', 'abc', 'abc', 'abc', 'abc', 'abc', 'abc']
+#   findSubstring('abc', 'abc', 9) → ['abc
+======================================================================
+Execution time: 20.580s
+
+
+======================================================================
+RESPONSE #49 (medium)
+======================================================================
+Prompt: Generate code to transpose a matrix
+----------------------------------------------------------------------
+Generated Code:
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(matrix) = transpose(matrix.T)
+#   transpose(
+======================================================================
+Execution time: 22.510s
+
+
+======================================================================
+RESPONSE #50 (medium)
+======================================================================
+Prompt: Write a function to find the GCD of two numbers using Euclidean algorithm
+----------------------------------------------------------------------
+Generated Code:
+# https://www.geeksforgeeks.org/find-the-gcd-of-two-numbers-using-geeks-algorithm/
+
+def gcd(a, b):
+    if a == 0:
+        return b
+    else:
+        return gcd(b, a % b)
+
+def main():
+    n = int(input())
+    a = list(map(int, input().split()))
+    b = list(map(int, input().split()))
+    print(gcd(a, b))
+
+if __name__ == '__main__':
+    main()
+======================================================================
+Execution time: 11.995s
