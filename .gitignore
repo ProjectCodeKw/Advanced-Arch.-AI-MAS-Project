@@ -1,7 +1,0 @@
-*.gguf
-.claude
-venv/
-venv
-Code1/model/llama.cpp
-Code1/model/tiny_starcoder_py
-Code1/model/tiny_starcoder_py_fp16.gguf
