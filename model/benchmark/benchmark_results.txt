@@ -1,0 +1,41 @@
+
+================================================================================
+MATH AGENT BENCHMARK RUN - 2025-12-24 18:31:24
+================================================================================
+Model: DeepSeek-R1-Distill-Qwen-1.5B (GGUF Q4_K_M)
+Total Prompts: 50
+Successful: 50
+Failed: 0
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY STATISTICS
+────────────────────────────────────────────────────────────────────────────────
+
+EASY Category:
+  Count:           25 prompts
+  Average Time:    4.611s
+  Median Time:     3.039s
+  Min Time:        1.439s
+  Max Time:        38.235s
+  Std Deviation:   7.090s
+
+MEDIUM Category:
+  Count:           25 prompts
+  Average Time:    6.953s
+  Median Time:     3.167s
+  Min Time:        1.972s
+  Max Time:        39.056s
+  Std Deviation:   9.973s
+
+────────────────────────────────────────────────────────────────────────────────
+OVERALL STATISTICS
+────────────────────────────────────────────────────────────────────────────────
+  Total Successful: 50 prompts
+  Average Time:     5.782s
+  Median Time:      3.148s
+  Min Time:         1.439s
+  Max Time:         39.056s
+  Std Deviation:    8.645s
+
+================================================================================
+

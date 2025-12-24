@@ -3,6 +3,4 @@
 venv/
 venv
 model/llama.cpp
-model/tiny_starcoder_py
-model/tiny_starcoder_py_fp16.gguf
-model/benchmark/
+model/DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf

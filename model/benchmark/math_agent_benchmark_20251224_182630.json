@@ -1,0 +1,452 @@
+[
+  {
+    "prompt_num": 1,
+    "category": "easy",
+    "prompt": "Calculate 25% of 840",
+    "execution_time": 4.431610584259033,
+    "output_length": 18,
+    "answer": "25% of 840 is 210.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 2,
+    "category": "easy",
+    "prompt": "What is 15 times 23 plus 45",
+    "execution_time": 4.052462339401245,
+    "output_length": 18,
+    "answer": "15 \u00d7 23 + 45 = 345",
+    "status": "success"
+  },
+  {
+    "prompt_num": 3,
+    "category": "easy",
+    "prompt": "Find the average of 10, 20, 30, and 40",
+    "execution_time": 3.5027213096618652,
+    "output_length": 18,
+    "answer": "The average is 25.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 4,
+    "category": "easy",
+    "prompt": "Calculate the area of a circle with radius 7",
+    "execution_time": 2.9592409133911133,
+    "output_length": 17,
+    "answer": "The area is 77.45",
+    "status": "success"
+  },
+  {
+    "prompt_num": 5,
+    "category": "easy",
+    "prompt": "What is 2 to the power of 8",
+    "execution_time": 2.781742572784424,
+    "output_length": 9,
+    "answer": "2^8 = 256",
+    "status": "success"
+  },
+  {
+    "prompt_num": 6,
+    "category": "easy",
+    "prompt": "Calculate the factorial of 5",
+    "execution_time": 2.5016441345214844,
+    "output_length": 26,
+    "answer": "The factorial of 5 is 120.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 7,
+    "category": "easy",
+    "prompt": "Find the square root of 144",
+    "execution_time": 2.883716106414795,
+    "output_length": 29,
+    "answer": "The square root of 144 is 12.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 8,
+    "category": "easy",
+    "prompt": "What is 100 divided by 4",
+    "execution_time": 3.660132884979248,
+    "output_length": 23,
+    "answer": "100 divided by 4 is 25.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 9,
+    "category": "easy",
+    "prompt": "Calculate 50% of 200",
+    "execution_time": 3.6255860328674316,
+    "output_length": 18,
+    "answer": "50% of 200 is 100.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 10,
+    "category": "easy",
+    "prompt": "What is the cube of 4",
+    "execution_time": 2.1817970275878906,
+    "output_length": 20,
+    "answer": "The cube of 4 is 64.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 11,
+    "category": "easy",
+    "prompt": "Calculate 3.14 times 5 squared",
+    "execution_time": 38.234583139419556,
+    "output_length": 565,
+    "answer": "3.14 \u00d7 5\u00b2 = 3.14 \u00d7 5 \u00d7 5 = 3.14 \u00d7 25 = 78.5\nBut wait, 3.14 is an approximation of pi. So, 3.14 \u00d7 5\u00b2 is an approximation of pi \u00d7 5\u00b2. But pi \u00d7 5\u00b2 is approximately 78.54. So, 3.14 \u00d7 5\u00b2 is an approximation of pi \u00d7 5\u00b2. But wait, 3.14 \u00d7 5\u00b2 is an approximation of pi \u00d7 5\u00b2. But wait, 3.14 \u00d7 5\u00b2 is an approximation of pi \u00d7 5\u00b2. But wait, 3.14 \u00d7 5\u00b2 is an approximation of pi \u00d7 5\u00b2. But wait, 3.14 \u00d7 5\u00b2 is an approximation of pi \u00d7 5\u00b2. But wait, 3.14 \u00d7 5\u00b2 is an approximation of pi \u00d7 5\u00b2. But wait, 3.14 \u00d7 5\u00b2 is an approximation of pi \u00d7 5\u00b2. But wait, 3.14 \u00d7 5\u00b2 is an approximation",
+    "status": "success"
+  },
+  {
+    "prompt_num": 12,
+    "category": "easy",
+    "prompt": "Find the remainder when 17 is divided by 5",
+    "execution_time": 4.802302122116089,
+    "output_length": 67,
+    "answer": "17 divided by 5 is 3 with a remainder of 1. So, the remainder is 1.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 13,
+    "category": "easy",
+    "prompt": "What is the absolute value of -25",
+    "execution_time": 2.8510138988494873,
+    "output_length": 32,
+    "answer": "The absolute value of -25 is 25.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 14,
+    "category": "easy",
+    "prompt": "Calculate 7 factorial",
+    "execution_time": 5.471276044845581,
+    "output_length": 46,
+    "answer": "7! = 7 \u00d7 6 \u00d7 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = 5040\n</think>",
+    "status": "success"
+  },
+  {
+    "prompt_num": 15,
+    "category": "easy",
+    "prompt": "What is 12 squared",
+    "execution_time": 1.5325891971588135,
+    "output_length": 3,
+    "answer": "144",
+    "status": "success"
+  },
+  {
+    "prompt_num": 16,
+    "category": "easy",
+    "prompt": "Find 20% of 500",
+    "execution_time": 3.317863702774048,
+    "output_length": 18,
+    "answer": "20% of 500 is 100.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 17,
+    "category": "easy",
+    "prompt": "Calculate 8 divided by 2 times 4",
+    "execution_time": 3.1043825149536133,
+    "output_length": 33,
+    "answer": "8 divided by 2 times 4 equals 16.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 18,
+    "category": "easy",
+    "prompt": "What is 99 plus 1",
+    "execution_time": 2.856966733932495,
+    "output_length": 17,
+    "answer": "99 plus 1 is 100.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 19,
+    "category": "easy",
+    "prompt": "Find the sum of 1 through 10",
+    "execution_time": 2.1996781826019287,
+    "output_length": 2,
+    "answer": "10",
+    "status": "success"
+  },
+  {
+    "prompt_num": 20,
+    "category": "easy",
+    "prompt": "Calculate 16 to the power of 0.5",
+    "execution_time": 5.063455581665039,
+    "output_length": 32,
+    "answer": "16^0.5 = 16^(1/2) = sqrt(16) = 4",
+    "status": "success"
+  },
+  {
+    "prompt_num": 21,
+    "category": "easy",
+    "prompt": "What is 45 minus 23",
+    "execution_time": 3.039486885070801,
+    "output_length": 12,
+    "answer": "45 - 23 = 22",
+    "status": "success"
+  },
+  {
+    "prompt_num": 22,
+    "category": "easy",
+    "prompt": "Calculate 6 times 7",
+    "execution_time": 2.2087199687957764,
+    "output_length": 10,
+    "answer": "6 \u00d7 7 = 42",
+    "status": "success"
+  },
+  {
+    "prompt_num": 23,
+    "category": "easy",
+    "prompt": "Find half of 86",
+    "execution_time": 1.4393980503082275,
+    "output_length": 5,
+    "answer": "_____",
+    "status": "success"
+  },
+  {
+    "prompt_num": 24,
+    "category": "easy",
+    "prompt": "What is 1000 divided by 25",
+    "execution_time": 4.855837821960449,
+    "output_length": 24,
+    "answer": "1000 \u00f7 25 = 1000/25 = 40",
+    "status": "success"
+  },
+  {
+    "prompt_num": 25,
+    "category": "easy",
+    "prompt": "Calculate 9 squared",
+    "execution_time": 1.7191274166107178,
+    "output_length": 16,
+    "answer": "9 squared is 81.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 26,
+    "category": "medium",
+    "prompt": "Calculate the variance of the numbers 2, 4, 6, 8, 10",
+    "execution_time": 3.313586473464966,
+    "output_length": 19,
+    "answer": "The variance is 16.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 27,
+    "category": "medium",
+    "prompt": "Find the standard deviation of 5, 10, 15, 20, 25",
+    "execution_time": 3.2541446685791016,
+    "output_length": 2,
+    "answer": "10",
+    "status": "success"
+  },
+  {
+    "prompt_num": 28,
+    "category": "medium",
+    "prompt": "Calculate the median of 3, 7, 2, 9, 5, 1, 8",
+    "execution_time": 39.05587291717529,
+    "output_length": 641,
+    "answer": "10\nWait, that's not right. Wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait, no, wait",
+    "status": "success"
+  },
+  {
+    "prompt_num": 29,
+    "category": "medium",
+    "prompt": "Find the mode of 2, 3, 3, 4, 4, 4, 5",
+    "execution_time": 3.1526544094085693,
+    "output_length": 10,
+    "answer": "Mode is 4.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 30,
+    "category": "medium",
+    "prompt": "Calculate the range of 12, 45, 23, 67, 34",
+    "execution_time": 6.585419178009033,
+    "output_length": 49,
+    "answer": "The range is 12, 45, 23, 67, 34. The range is 12.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 31,
+    "category": "medium",
+    "prompt": "What is the greatest common divisor of 48 and 18",
+    "execution_time": 2.36833119392395,
+    "output_length": 2,
+    "answer": "18",
+    "status": "success"
+  },
+  {
+    "prompt_num": 32,
+    "category": "medium",
+    "prompt": "Find the least common multiple of 12 and 15",
+    "execution_time": 2.203392744064331,
+    "output_length": 3,
+    "answer": "180",
+    "status": "success"
+  },
+  {
+    "prompt_num": 33,
+    "category": "medium",
+    "prompt": "Calculate the slope between points (2,3) and (5,9)",
+    "execution_time": 2.825770854949951,
+    "output_length": 17,
+    "answer": "The slope is 6/1.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 34,
+    "category": "medium",
+    "prompt": "Find the distance between points (0,0) and (3,4)",
+    "execution_time": 2.162205696105957,
+    "output_length": 1,
+    "answer": "0",
+    "status": "success"
+  },
+  {
+    "prompt_num": 35,
+    "category": "medium",
+    "prompt": "Calculate the midpoint between (2,5) and (8,13)",
+    "execution_time": 2.976412296295166,
+    "output_length": 21,
+    "answer": "The midpoint is (5,9)",
+    "status": "success"
+  },
+  {
+    "prompt_num": 36,
+    "category": "medium",
+    "prompt": "What is 5 factorial divided by 3 factorial",
+    "execution_time": 5.7417073249816895,
+    "output_length": 38,
+    "answer": "5! / 3! = 5 \u00d7 4 \u00d7 3! / 3! = 5 \u00d7 4 = 20",
+    "status": "success"
+  },
+  {
+    "prompt_num": 37,
+    "category": "medium",
+    "prompt": "Calculate the sum of squares from 1 to 5",
+    "execution_time": 2.336681604385376,
+    "output_length": 12,
+    "answer": "0.5\n</think>",
+    "status": "success"
+  },
+  {
+    "prompt_num": 38,
+    "category": "medium",
+    "prompt": "Find the geometric mean of 4 and 9",
+    "execution_time": 3.167337656021118,
+    "output_length": 35,
+    "answer": "The geometric mean of 4 and 9 is 6.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 39,
+    "category": "medium",
+    "prompt": "Calculate compound interest: principal 1000, rate 5%, time 2 years",
+    "execution_time": 38.51646971702576,
+    "output_length": 930,
+    "answer": "1000*(1+0.05)^2 = 1000*1.1025 = 1102.5\nBut wait, the answer is 1102.5, but the question says to calculate compound interest, which is the total amount of money after the interest is added. So, the answer is 1102.5, but the question says to calculate compound interest, which is the total amount of money after the interest is added. So, the answer is 1102.5, but the question says to calculate compound interest, which is the total amount of money after the interest is added. So, the answer is 1102.5, but the question says to calculate compound interest, which is the total amount of money after the interest is added. So, the answer is 1102.5, but the question says to calculate compound interest, which is the total amount of money after the interest is added. So, the answer is 1102.5, but the question says to calculate compound interest, which is the total amount of money after the interest is added. So, the answer is 110",
+    "status": "success"
+  },
+  {
+    "prompt_num": 40,
+    "category": "medium",
+    "prompt": "What is the perimeter of a rectangle with length 12 and width 8",
+    "execution_time": 3.9832262992858887,
+    "output_length": 20,
+    "answer": "12 + 8 + 12 + 8 = 40",
+    "status": "success"
+  },
+  {
+    "prompt_num": 41,
+    "category": "medium",
+    "prompt": "Find the volume of a cube with side length 5",
+    "execution_time": 4.914963483810425,
+    "output_length": 59,
+    "answer": "The volume is 5 cubed, which is 125. So, the volume is 125.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 42,
+    "category": "medium",
+    "prompt": "Calculate the surface area of a sphere with radius 3",
+    "execution_time": 8.854529857635498,
+    "output_length": 133,
+    "answer": "The surface area of a sphere is given by the formula 4\u03c0r\u00b2. Plugging in the radius, 4\u03c0*(3)\u00b2 = 4\u03c0*9 = 36\u03c0. So, the surface area is 36\u03c0.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 43,
+    "category": "medium",
+    "prompt": "What is sin(30 degrees) in decimal form",
+    "execution_time": 1.9721815586090088,
+    "output_length": 3,
+    "answer": "0.5",
+    "status": "success"
+  },
+  {
+    "prompt_num": 44,
+    "category": "medium",
+    "prompt": "Find the hypotenuse of a right triangle with sides 3 and 4",
+    "execution_time": 3.053864002227783,
+    "output_length": 20,
+    "answer": "The hypotenuse is 5.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 45,
+    "category": "medium",
+    "prompt": "Calculate the discriminant of equation x^2 + 5x + 6 = 0",
+    "execution_time": 3.1435701847076416,
+    "output_length": 22,
+    "answer": "The discriminant is 9.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 46,
+    "category": "medium",
+    "prompt": "What is the sum of the arithmetic sequence 2, 5, 8, 11, 14",
+    "execution_time": 4.788729429244995,
+    "output_length": 24,
+    "answer": "2 + 5 + 8 + 11 + 14 = 40",
+    "status": "success"
+  },
+  {
+    "prompt_num": 47,
+    "category": "medium",
+    "prompt": "Find the 10th term in the sequence 3, 6, 12, 24",
+    "execution_time": 2.225266695022583,
+    "output_length": 3,
+    "answer": "120",
+    "status": "success"
+  },
+  {
+    "prompt_num": 48,
+    "category": "medium",
+    "prompt": "Calculate the probability of rolling a sum of 7 with two dice",
+    "execution_time": 2.670314073562622,
+    "output_length": 24,
+    "answer": "The probability is 7/12.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 49,
+    "category": "medium",
+    "prompt": "What is 15 choose 3 (combinations)",
+    "execution_time": 14.948729276657104,
+    "output_length": 129,
+    "answer": "15 choose 3 is equal to 15!/(3!*(15-3)!)=15!/(3!12!)= (15*14*13*12!)/(3!12!)= (15*14*13)/6= (15*14)/6 *13= (210)/6 *13=35*13=455.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 50,
+    "category": "medium",
+    "prompt": "Find the permutations of 5 items taken 2 at a time",
+    "execution_time": 5.613720655441284,
+    "output_length": 66,
+    "answer": "The permutations of 5 items taken 2 at a time is 5P2 = 5 \u00d7 4 = 20.",
+    "status": "success"
+  }
+]

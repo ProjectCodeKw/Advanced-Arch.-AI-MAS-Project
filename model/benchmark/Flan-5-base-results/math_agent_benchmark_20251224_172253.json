@@ -1,0 +1,452 @@
+[
+  {
+    "prompt_num": 1,
+    "category": "easy",
+    "prompt": "Calculate 25% of 840",
+    "execution_time": 20.354999542236328,
+    "output_length": 27,
+    "answer": "840 / 25 = 840 / 100 = 840.",
+    "status": "success"
+  },
+  {
+    "prompt_num": 2,
+    "category": "easy",
+    "prompt": "What is 15 times 23 plus 45",
+    "execution_time": 8.662856340408325,
+    "output_length": 3,
+    "answer": "-23",
+    "status": "success"
+  },
+  {
+    "prompt_num": 3,
+    "category": "easy",
+    "prompt": "Find the average of 10, 20, 30, and 40",
+    "execution_time": 1.484234094619751,
+    "output_length": 2,
+    "answer": "10",
+    "status": "success"
+  },
+  {
+    "prompt_num": 4,
+    "category": "easy",
+    "prompt": "Calculate the area of a circle with radius 7",
+    "execution_time": 1.3955821990966797,
+    "output_length": 2,
+    "answer": ".5",
+    "status": "success"
+  },
+  {
+    "prompt_num": 5,
+    "category": "easy",
+    "prompt": "What is 2 to the power of 8",
+    "execution_time": 0.9216973781585693,
+    "output_length": 5,
+    "answer": "tenth",
+    "status": "success"
+  },
+  {
+    "prompt_num": 6,
+    "category": "easy",
+    "prompt": "Calculate the factorial of 5",
+    "execution_time": 0.6941661834716797,
+    "output_length": 1,
+    "answer": "5",
+    "status": "success"
+  },
+  {
+    "prompt_num": 7,
+    "category": "easy",
+    "prompt": "Find the square root of 144",
+    "execution_time": 0.7382164001464844,
+    "output_length": 2,
+    "answer": "84",
+    "status": "success"
+  },
+  {
+    "prompt_num": 8,
+    "category": "easy",
+    "prompt": "What is 100 divided by 4",
+    "execution_time": 0.9403684139251709,
+    "output_length": 1,
+    "answer": "4",
+    "status": "success"
+  },
+  {
+    "prompt_num": 9,
+    "category": "easy",
+    "prompt": "Calculate 50% of 200",
+    "execution_time": 0.7200853824615479,
+    "output_length": 1,
+    "answer": "0",
+    "status": "success"
+  },
+  {
+    "prompt_num": 10,
+    "category": "easy",
+    "prompt": "What is the cube of 4",
+    "execution_time": 0.7511610984802246,
+    "output_length": 3,
+    "answer": "ten",
+    "status": "success"
+  },
+  {
+    "prompt_num": 11,
+    "category": "easy",
+    "prompt": "Calculate 3.14 times 5 squared",
+    "execution_time": 1.0289089679718018,
+    "output_length": 3,
+    "answer": ".14",
+    "status": "success"
+  },
+  {
+    "prompt_num": 12,
+    "category": "easy",
+    "prompt": "Find the remainder when 17 is divided by 5",
+    "execution_time": 0.8885653018951416,
+    "output_length": 1,
+    "answer": "0",
+    "status": "success"
+  },
+  {
+    "prompt_num": 13,
+    "category": "easy",
+    "prompt": "What is the absolute value of -25",
+    "execution_time": 0.7503433227539062,
+    "output_length": 2,
+    "answer": "-5",
+    "status": "success"
+  },
+  {
+    "prompt_num": 14,
+    "category": "easy",
+    "prompt": "Calculate 7 factorial",
+    "execution_time": 0.6292881965637207,
+    "output_length": 1,
+    "answer": "0",
+    "status": "success"
+  },
+  {
+    "prompt_num": 15,
+    "category": "easy",
+    "prompt": "What is 12 squared",
+    "execution_time": 0.7995786666870117,
+    "output_length": 11,
+    "answer": "ten squares",
+    "status": "success"
+  },
+  {
+    "prompt_num": 16,
+    "category": "easy",
+    "prompt": "Find 20% of 500",
+    "execution_time": 0.8394837379455566,
+    "output_length": 1,
+    "answer": "0",
+    "status": "success"
+  },
+  {
+    "prompt_num": 17,
+    "category": "easy",
+    "prompt": "Calculate 8 divided by 2 times 4",
+    "execution_time": 1.1931002140045166,
+    "output_length": 13,
+    "answer": "8 / 2 = 2 / 4",
+    "status": "success"
+  },
+  {
+    "prompt_num": 18,
+    "category": "easy",
+    "prompt": "What is 99 plus 1",
+    "execution_time": 0.716569185256958,
+    "output_length": 8,
+    "answer": "a number",
+    "status": "success"
+  },
+  {
+    "prompt_num": 19,
+    "category": "easy",
+    "prompt": "Find the sum of 1 through 10",
+    "execution_time": 0.7194712162017822,
+    "output_length": 1,
+    "answer": "1",
+    "status": "success"
+  },
+  {
+    "prompt_num": 20,
+    "category": "easy",
+    "prompt": "Calculate 16 to the power of 0.5",
+    "execution_time": 1.07637619972229,
+    "output_length": 3,
+    "answer": "0.5",
+    "status": "success"
+  },
+  {
+    "prompt_num": 21,
+    "category": "easy",
+    "prompt": "What is 45 minus 23",
+    "execution_time": 0.9393870830535889,
+    "output_length": 3,
+    "answer": "-23",
+    "status": "success"
+  },
+  {
+    "prompt_num": 22,
+    "category": "easy",
+    "prompt": "Calculate 6 times 7",
+    "execution_time": 0.6381924152374268,
+    "output_length": 1,
+    "answer": "7",
+    "status": "success"
+  },
+  {
+    "prompt_num": 23,
+    "category": "easy",
+    "prompt": "Find half of 86",
+    "execution_time": 0.6095671653747559,
+    "output_length": 2,
+    "answer": "68",
+    "status": "success"
+  },
+  {
+    "prompt_num": 24,
+    "category": "easy",
+    "prompt": "What is 1000 divided by 25",
+    "execution_time": 0.6475996971130371,
+    "output_length": 2,
+    "answer": "25",
+    "status": "success"
+  },
+  {
+    "prompt_num": 25,
+    "category": "easy",
+    "prompt": "Calculate 9 squared",
+    "execution_time": 0.7356348037719727,
+    "output_length": 9,
+    "answer": "9 squared",
+    "status": "success"
+  },
+  {
+    "prompt_num": 26,
+    "category": "medium",
+    "prompt": "Calculate the variance of the numbers 2, 4, 6, 8, 10",
+    "execution_time": 0.8849027156829834,
+    "output_length": 1,
+    "answer": "4",
+    "status": "success"
+  },
+  {
+    "prompt_num": 27,
+    "category": "medium",
+    "prompt": "Find the standard deviation of 5, 10, 15, 20, 25",
+    "execution_time": 0.8165581226348877,
+    "output_length": 2,
+    "answer": "10",
+    "status": "success"
+  },
+  {
+    "prompt_num": 28,
+    "category": "medium",
+    "prompt": "Calculate the median of 3, 7, 2, 9, 5, 1, 8",
+    "execution_time": 0.9325854778289795,
+    "output_length": 1,
+    "answer": "1",
+    "status": "success"
+  },
+  {
+    "prompt_num": 29,
+    "category": "medium",
+    "prompt": "Find the mode of 2, 3, 3, 4, 4, 4, 5",
+    "execution_time": 0.8527045249938965,
+    "output_length": 1,
+    "answer": "4",
+    "status": "success"
+  },
+  {
+    "prompt_num": 30,
+    "category": "medium",
+    "prompt": "Calculate the range of 12, 45, 23, 67, 34",
+    "execution_time": 1.0451219081878662,
+    "output_length": 2,
+    "answer": "58",
+    "status": "success"
+  },
+  {
+    "prompt_num": 31,
+    "category": "medium",
+    "prompt": "What is the greatest common divisor of 48 and 18",
+    "execution_time": 1.3934001922607422,
+    "output_length": 1,
+    "answer": "0",
+    "status": "success"
+  },
+  {
+    "prompt_num": 32,
+    "category": "medium",
+    "prompt": "Find the least common multiple of 12 and 15",
+    "execution_time": 0.7926735877990723,
+    "output_length": 2,
+    "answer": "12",
+    "status": "success"
+  },
+  {
+    "prompt_num": 33,
+    "category": "medium",
+    "prompt": "Calculate the slope between points (2,3) and (5,9)",
+    "execution_time": 1.0634574890136719,
+    "output_length": 5,
+    "answer": "(2.5)",
+    "status": "success"
+  },
+  {
+    "prompt_num": 34,
+    "category": "medium",
+    "prompt": "Find the distance between points (0,0) and (3,4)",
+    "execution_time": 1.1318776607513428,
+    "output_length": 5,
+    "answer": "(0.5)",
+    "status": "success"
+  },
+  {
+    "prompt_num": 35,
+    "category": "medium",
+    "prompt": "Calculate the midpoint between (2,5) and (8,13)",
+    "execution_time": 1.1420345306396484,
+    "output_length": 5,
+    "answer": "(2,5)",
+    "status": "success"
+  },
+  {
+    "prompt_num": 36,
+    "category": "medium",
+    "prompt": "What is 5 factorial divided by 3 factorial",
+    "execution_time": 0.9851303100585938,
+    "output_length": 3,
+    "answer": "ten",
+    "status": "success"
+  },
+  {
+    "prompt_num": 37,
+    "category": "medium",
+    "prompt": "Calculate the sum of squares from 1 to 5",
+    "execution_time": 0.8012769222259521,
+    "output_length": 1,
+    "answer": "1",
+    "status": "success"
+  },
+  {
+    "prompt_num": 38,
+    "category": "medium",
+    "prompt": "Find the geometric mean of 4 and 9",
+    "execution_time": 0.8021137714385986,
+    "output_length": 1,
+    "answer": "0",
+    "status": "success"
+  },
+  {
+    "prompt_num": 39,
+    "category": "medium",
+    "prompt": "Calculate compound interest: principal 1000, rate 5%, time 2 years",
+    "execution_time": 18.869415760040283,
+    "output_length": 454,
+    "answer": "5% = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal = 5% of principal =",
+    "status": "success"
+  },
+  {
+    "prompt_num": 40,
+    "category": "medium",
+    "prompt": "What is the perimeter of a rectangle with length 12 and width 8",
+    "execution_time": 9.120150804519653,
+    "output_length": 2,
+    "answer": "76",
+    "status": "success"
+  },
+  {
+    "prompt_num": 41,
+    "category": "medium",
+    "prompt": "Find the volume of a cube with side length 5",
+    "execution_time": 1.924006462097168,
+    "output_length": 2,
+    "answer": ".5",
+    "status": "success"
+  },
+  {
+    "prompt_num": 42,
+    "category": "medium",
+    "prompt": "Calculate the surface area of a sphere with radius 3",
+    "execution_time": 1.4569003582000732,
+    "output_length": 2,
+    "answer": ".8",
+    "status": "success"
+  },
+  {
+    "prompt_num": 43,
+    "category": "medium",
+    "prompt": "What is sin(30 degrees) in decimal form",
+    "execution_time": 1.1543922424316406,
+    "output_length": 12,
+    "answer": "tenth degree",
+    "status": "success"
+  },
+  {
+    "prompt_num": 44,
+    "category": "medium",
+    "prompt": "Find the hypotenuse of a right triangle with sides 3 and 4",
+    "execution_time": 1.0608537197113037,
+    "output_length": 1,
+    "answer": "2",
+    "status": "success"
+  },
+  {
+    "prompt_num": 45,
+    "category": "medium",
+    "prompt": "Calculate the discriminant of equation x^2 + 5x + 6 = 0",
+    "execution_time": 1.538111686706543,
+    "output_length": 1,
+    "answer": "0",
+    "status": "success"
+  },
+  {
+    "prompt_num": 46,
+    "category": "medium",
+    "prompt": "What is the sum of the arithmetic sequence 2, 5, 8, 11, 14",
+    "execution_time": 1.379441499710083,
+    "output_length": 1,
+    "answer": "0",
+    "status": "success"
+  },
+  {
+    "prompt_num": 47,
+    "category": "medium",
+    "prompt": "Find the 10th term in the sequence 3, 6, 12, 24",
+    "execution_time": 0.9010701179504395,
+    "output_length": 2,
+    "answer": "12",
+    "status": "success"
+  },
+  {
+    "prompt_num": 48,
+    "category": "medium",
+    "prompt": "Calculate the probability of rolling a sum of 7 with two dice",
+    "execution_time": 1.1874363422393799,
+    "output_length": 5,
+    "answer": "1 / 3",
+    "status": "success"
+  },
+  {
+    "prompt_num": 49,
+    "category": "medium",
+    "prompt": "What is 15 choose 3 (combinations)",
+    "execution_time": 0.8676717281341553,
+    "output_length": 1,
+    "answer": "0",
+    "status": "success"
+  },
+  {
+    "prompt_num": 50,
+    "category": "medium",
+    "prompt": "Find the permutations of 5 items taken 2 at a time",
+    "execution_time": 1.3618886470794678,
+    "output_length": 9,
+    "answer": "1 - 2 = 2",
+    "status": "success"
+  }
+]
