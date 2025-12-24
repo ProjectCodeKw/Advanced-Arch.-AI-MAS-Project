@@ -1,0 +1,86 @@
+{
+  "model": "bigcode/tiny_starcoder_py (GGUF FP16)",
+  "total_prompts": 50,
+  "successful": 50,
+  "failed": 0,
+  "latency": {
+    "overall_avg": 15.18,
+    "easy_avg": 13.09,
+    "medium_avg": 17.27,
+    "min": 1.53,
+    "max": 23.08,
+    "std_dev": 7.42
+  },
+  "accuracy_assessment": {
+    "easy_category": {
+      "correct_functional_code": 8,
+      "partially_correct": 5,
+      "incorrect_logic": 7,
+      "hallucinations": 5,
+      "estimated_avg_accuracy": "45%"
+    },
+    "medium_category": {
+      "correct_functional_code": 4,
+      "partially_correct": 3,
+      "incorrect_logic": 8,
+      "hallucinations": 10,
+      "estimated_avg_accuracy": "30%"
+    },
+    "overall_avg_accuracy": "37.5%"
+  },
+  "common_issues": {
+    "repetitive_output": {
+      "count": 15,
+      "description": "Model gets stuck repeating same line/pattern endlessly",
+      "examples": ["prompt 12 (swap variables)", "prompt 18 (uppercase)", "prompt 24 (even numbers)"]
+    },
+    "hallucinated_explanations": {
+      "count": 12,
+      "description": "Generates fake examples, wrong explanations, or unrelated URLs",
+      "examples": ["prompt 2 (reverse string wrong)", "prompt 3 (hardcoded primes)", "prompt 29 (stack URLs)"]
+    },
+    "incorrect_logic": {
+      "count": 18,
+      "description": "Code has logical errors or doesn't solve the task",
+      "examples": ["prompt 10 (uses len())", "prompt 13 (even/odd reversed)", "prompt 2 (doesn't reverse)"]
+    },
+    "incomplete_code": {
+      "count": 8,
+      "description": "Code cuts off mid-function or mid-line",
+      "examples": ["prompt 3 (prime check)", "prompt 19 (power function)", "prompt 25 (absolute value)"]
+    }
+  },
+  "quality_breakdown": {
+    "good_solutions": [
+      "prompt 1: factorial (correct recursive)",
+      "prompt 4: find max (correct)",
+      "prompt 5: sum list (correct)",
+      "prompt 7: palindrome check (correct recursive)",
+      "prompt 8: count vowels (functional)",
+      "prompt 11: average (correct)",
+      "prompt 14: find min (correct)",
+      "prompt 26: bubble sort (mostly correct)",
+      "prompt 33: binary search (complete implementation)",
+      "prompt 42: fibonacci (correct)",
+      "prompt 44: remove non-alphanumeric (correct)",
+      "prompt 50: GCD (correct Euclidean)"
+    ],
+    "failed_solutions": [
+      "prompt 2: reverse string (wrong logic)",
+      "prompt 3: prime check (hardcoded values)",
+      "prompt 6: celsius conversion (gibberish)",
+      "prompt 10: string length (uses len())",
+      "prompt 12: swap variables (endless repetition)",
+      "prompt 13: even/odd (logic reversed)",
+      "prompt 16: check empty list (gibberish)",
+      "prompt 18: uppercase (endless repetition)",
+      "prompt 22: concatenate (endless repetition)",
+      "prompt 28: merge sorted lists (repetition)",
+      "prompt 34: common elements (repetition)",
+      "prompt 38: longest word (placeholder code)",
+      "prompt 39: remove whitespace (repetition)",
+      "prompt 43: sort dict (gibberish)",
+      "prompt 45: mode of list (unrelated)"
+    ]
+  }
+}
