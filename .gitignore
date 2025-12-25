@@ -1,7 +1,0 @@
-*.gguf
-Mini-Orch/.claude/
-Mini-Orch/.claude
-Mini-Orch/venv
-Mini-Orch/venv/
-Mini-Orch/model/phi3-5
-Mini-Orch/model/phi3-5/
