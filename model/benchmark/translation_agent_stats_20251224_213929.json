@@ -1,0 +1,35 @@
+{
+  "timestamp": "20251224_213929",
+  "model": "Helsinki-NLP/opus-mt-en-ar",
+  "task": "English to Arabic Translation",
+  "device": "CPU (1GB RAM, 2 cores)",
+  "total_prompts": 50,
+  "successful": 50,
+  "failed": 0,
+  "categories": {
+    "easy": {
+      "avg": 0.2579090404510498,
+      "min": 0.1535017490386963,
+      "max": 0.993117094039917,
+      "median": 0.2252044677734375,
+      "stdev": 0.16225776722718827,
+      "count": 25
+    },
+    "medium": {
+      "avg": 0.4293972396850586,
+      "min": 0.2999429702758789,
+      "max": 0.7642905712127686,
+      "median": 0.4302055835723877,
+      "stdev": 0.09642746227507065,
+      "count": 25
+    }
+  },
+  "overall": {
+    "avg": 0.3436531400680542,
+    "min": 0.1535017490386963,
+    "max": 0.993117094039917,
+    "median": 0.31169116497039795,
+    "stdev": 0.15796038350590139,
+    "count": 50
+  }
+}

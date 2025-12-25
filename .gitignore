@@ -1,0 +1,9 @@
+*.gguf
+.claude
+venv/
+venv
+model/llama.cpp
+model/tiny_starcoder_py
+model/tiny_starcoder_py_fp16.gguf
+model/opus-mt-en-ar
+model/opus-mt-en-ar/

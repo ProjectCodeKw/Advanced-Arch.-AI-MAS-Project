@@ -1,0 +1,104 @@
+{
+  "model": "Helsinki-NLP/opus-mt-en-ar (~300 MB)",
+  "total_prompts": 50,
+  "successful": 50,
+  "failed": 0,
+  "latency": {
+    "overall_avg": 0.34,
+    "easy_avg": 0.26,
+    "medium_avg": 0.43,
+    "min": 0.15,
+    "max": 0.76,
+    "std_dev": 0.14
+  },
+  "accuracy_assessment": {
+    "easy_category": {
+      "correct_translation": 24,
+      "partially_correct": 1,
+      "incorrect_translation": 0,
+      "minor_issues": 2,
+      "estimated_avg_accuracy": "96%"
+    },
+    "medium_category": {
+      "correct_translation": 25,
+      "partially_correct": 0,
+      "incorrect_translation": 0,
+      "minor_issues": 3,
+      "estimated_avg_accuracy": "100%"
+    },
+    "overall_avg_accuracy": "98%"
+  },
+  "common_issues": {
+    "unnecessary_conjunctions": {
+      "count": 15,
+      "description": "Translations begin with 'و' (and) when not needed in Arabic",
+      "examples": ["prompt 26 (وأعلنت)", "prompt 28 (ويؤثر)", "prompt 31 (وسيناقش)"],
+      "severity": "minor - stylistic preference, not grammatically wrong"
+    },
+    "redundant_words": {
+      "count": 1,
+      "description": "Unnecessary word repetition in translation",
+      "examples": ["prompt 8 (جزيلاً جزيلاً - repeated 'very much')"],
+      "severity": "minor - meaning is correct"
+    },
+    "formatting_oddities": {
+      "count": 1,
+      "description": "Unusual punctuation or formatting in Arabic text",
+      "examples": ["prompt 2 (parentheses around Ahmed - اسمي (أحمد))"],
+      "severity": "minor - cosmetic issue"
+    },
+    "number_conversion": {
+      "count": 1,
+      "description": "Converts spelled-out numbers to digits",
+      "examples": ["prompt 29 (twenty percent → 20%)"],
+      "severity": "none - actually helpful"
+    }
+  },
+  "quality_breakdown": {
+    "excellent_translations": [
+      "prompt 1: Hello, how are you? (perfect)",
+      "prompt 3: The weather is nice (natural Arabic)",
+      "prompt 4: I like to read books (accurate)",
+      "prompt 7: The food is delicious (concise and correct)",
+      "prompt 11: The car is red (perfect)",
+      "prompt 16: The sun is shining (natural)",
+      "prompt 20: I love my family (accurate)",
+      "prompt 22: The door is open (correct)",
+      "prompt 24: The children are happy (perfect)",
+      "prompt 27: Scientists discovered cure (accurate technical)",
+      "prompt 29: Revenue increased (handled percentage well)",
+      "prompt 34: Economic growth (proper technical vocabulary)",
+      "prompt 36: International cooperation (accurate)",
+      "prompt 38: Renewable energy (correct terminology)",
+      "prompt 44: Investigation revealed corruption (accurate)",
+      "prompt 47: Cybersecurity threats (complex but correct)"
+    ],
+    "minor_issues": [
+      "prompt 2: parentheses around name (formatting)",
+      "prompt 8: repeated 'جزيلاً' (redundant but understandable)",
+      "prompt 26-50: many start with 'و' (stylistic, not wrong)"
+    ],
+    "failed_translations": []
+  },
+  "translation_characteristics": {
+    "strengths": [
+      "Excellent handling of simple daily phrases",
+      "Accurate technical vocabulary translation",
+      "Proper grammar and sentence structure",
+      "Good handling of complex political/economic terms",
+      "Maintains meaning across all complexity levels",
+      "Natural-sounding Arabic output"
+    ],
+    "weaknesses": [
+      "Tendency to add coordinating conjunctions (و) unnecessarily",
+      "Occasional minor redundancy",
+      "Rare formatting quirks with proper nouns"
+    ]
+  },
+  "performance_notes": {
+    "speed": "Extremely fast - 0.15s to 0.76s per translation",
+    "consistency": "Very consistent quality across all 50 translations",
+    "complexity_handling": "Medium sentences only ~40% slower than easy ones",
+    "first_query_overhead": "First translation took 0.99s (model loading)"
+  }
+}
