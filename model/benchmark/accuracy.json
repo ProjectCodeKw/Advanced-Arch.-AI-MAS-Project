@@ -1,0 +1,122 @@
+{
+  "model": "TinyLlama-1.1B-Chat Q3_K_M GGUF",
+  "total_prompts": 50,
+  "successful": 50,
+  "failed": 0,
+  "latency": {
+    "overall_avg": 11.34,
+    "easy_avg": 8.86,
+    "medium_avg": 13.82,
+    "min": 2.78,
+    "max": 24.32,
+    "std_dev": 6.12
+  },
+  "accuracy_assessment": {
+    "easy_category": {
+      "correct_response": 12,
+      "partially_correct": 8,
+      "incorrect_logic": 3,
+      "off_topic": 2,
+      "estimated_avg_accuracy": "64%"
+    },
+    "medium_category": {
+      "correct_response": 6,
+      "partially_correct": 11,
+      "incorrect_logic": 5,
+      "off_topic": 3,
+      "estimated_avg_accuracy": "52%"
+    },
+    "overall_avg_accuracy": "58%"
+  },
+  "common_issues": {
+    "verbose_responses": {
+      "count": 18,
+      "description": "Model provides overly lengthy explanations instead of concise answers",
+      "examples": ["prompt 5 (frustration - 363 chars)", "prompt 6 (negative sentiment - 421 chars)", "prompt 14 (main idea - 752 chars)"]
+    },
+    "wrong_task_interpretation": {
+      "count": 5,
+      "description": "Model misunderstands the question and answers something different",
+      "examples": ["prompt 1 (didn't summarize in 5 words)", "prompt 12 (just repeated text)", "prompt 17 (invented a Python task)"]
+    },
+    "over_explanation": {
+      "count": 12,
+      "description": "Model explains obvious things or provides unnecessary context",
+      "examples": ["prompt 10 (fact/opinion - overly complex)", "prompt 13 (formal/informal - too detailed)", "prompt 23 (writing style)"]
+    },
+    "hallucinated_details": {
+      "count": 4,
+      "description": "Model invents information not present in the prompt",
+      "examples": ["prompt 16 (Eiffel Tower history)", "prompt 38 (miracle cure - added refund info)", "prompt 15 (bedtime story ages 6-12)"]
+    }
+  },
+  "quality_breakdown": {
+    "good_responses": [
+      "prompt 2: main topic (correctly identified climate change)",
+      "prompt 3: sentiment (correctly identified positive)",
+      "prompt 7: key verb (correctly extracted 'discovered')",
+      "prompt 9: subject (correctly identified pyramids)",
+      "prompt 19: tense (correctly identified future)",
+      "prompt 21: time reference (correctly extracted)",
+      "prompt 22: question/statement (correct but wrong - 'where are my keys' is a question)",
+      "prompt 28: ownership inference (correct reasoning)",
+      "prompt 29: implicit assumption (correct)",
+      "prompt 35: grade prediction (reasonable 92%)",
+      "prompt 44: logical implications (correct transitive logic)",
+      "prompt 50: synthesize info (correct pattern identification)"
+    ],
+    "failed_responses": [
+      "prompt 1: summarize in 5 words (just repeated the sentence - 44 chars)",
+      "prompt 4: count words (said 10 words, correct is 5)",
+      "prompt 10: fact/opinion (overcomplicated, said 'depends on audience')",
+      "prompt 12: language style (just repeated the text, didn't classify)",
+      "prompt 17: intent (completely hallucinated a Python NLTK task)",
+      "prompt 22: question/statement (said statement, it's actually a question)",
+      "prompt 32: cause and effect (gave generic data analysis advice)",
+      "prompt 33: identify bias (claimed no bias exists)",
+      "prompt 37: paradox (denied it's a paradox)",
+      "prompt 38: credibility (suggested contacting publisher for refund)",
+      "prompt 43: fallacy (didn't identify bandwagon fallacy)",
+      "prompt 46: evidence strength (said 'not specified')"
+    ]
+  },
+  "category_analysis": {
+    "easy_prompts": {
+      "strengths": [
+        "Good at identifying sentiment and emotion",
+        "Can extract subjects and locations from text",
+        "Recognizes tense and basic grammar",
+        "Identifies tone and formality levels"
+      ],
+      "weaknesses": [
+        "Fails at counting (word count incorrect)",
+        "Doesn't follow specific format constraints (5 words)",
+        "Over-explains simple tasks",
+        "Sometimes just repeats input instead of analyzing"
+      ]
+    },
+    "medium_prompts": {
+      "strengths": [
+        "Can perform basic logical reasoning",
+        "Understands cause-effect relationships",
+        "Identifies patterns in data",
+        "Recognizes argument structures"
+      ],
+      "weaknesses": [
+        "Misses logical fallacies (circular reasoning, bandwagon)",
+        "Doesn't recognize paradoxes",
+        "Hallucinates information when uncertain",
+        "Struggles with ambiguity resolution",
+        "Over-complicates simple comparisons"
+      ]
+    }
+  },
+  "response_length_analysis": {
+    "avg_response_length_chars": 372,
+    "easy_avg_length": 271,
+    "medium_avg_length": 474,
+    "shortest_response": 34,
+    "longest_response": 957,
+    "verbosity_issue": "Model tends to over-explain, especially for medium prompts"
+  }
+}

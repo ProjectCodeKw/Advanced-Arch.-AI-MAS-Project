@@ -1,0 +1,41 @@
+
+================================================================================
+TEXT AGENT BENCHMARK RUN - 2025-12-24 19:02:35
+================================================================================
+Model: TinyLlama-1.1B-Chat Q3_K_M GGUF
+Total Prompts: 50
+Successful: 50
+Failed: 0
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY STATISTICS
+────────────────────────────────────────────────────────────────────────────────
+
+EASY Category:
+  Count:           25 prompts
+  Average Time:    9.689s
+  Median Time:     8.558s
+  Min Time:        2.779s
+  Max Time:        18.721s
+  Std Deviation:   4.954s
+
+MEDIUM Category:
+  Count:           25 prompts
+  Average Time:    15.135s
+  Median Time:     12.169s
+  Min Time:        5.751s
+  Max Time:        24.345s
+  Std Deviation:   6.940s
+
+────────────────────────────────────────────────────────────────────────────────
+OVERALL STATISTICS
+────────────────────────────────────────────────────────────────────────────────
+  Total Successful: 50 prompts
+  Average Time:     12.412s
+  Median Time:      11.220s
+  Min Time:         2.779s
+  Max Time:         24.345s
+  Std Deviation:    6.571s
+
+================================================================================
+
