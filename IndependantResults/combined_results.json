@@ -1,0 +1,6277 @@
+{
+  "metadata": {
+    "run_id": "20251227_173315",
+    "run_timestamp": "2025-12-27 17:33:15",
+    "total_tasks": 93
+  },
+  "tasks": [
+    {
+      "task_id": "single_task_1_e2c65e",
+      "prompt": "Generate a Python code to loop through a list and print its values",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 10.315,
+        "agent_execution_s": 0.632,
+        "network_overhead_s": 0.041,
+        "broker_round_trip_s": 5.939,
+        "total_time_s": 16.254
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766874996.309,
+          "claim_time": 1766874996.35,
+          "request_to_claim_s": 0.041,
+          "claim_agent": "code_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 0.632,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.35,
+          "new_score": 0.433,
+          "delta": 0.083
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_2_2c3a26",
+      "prompt": "Define what is artificial intelligence",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 178.333,
+        "agent_execution_s": 2.301,
+        "network_overhead_s": 0.028,
+        "broker_round_trip_s": 21.095,
+        "total_time_s": 199.428
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766875168.75,
+          "claim_time": 1766875168.778,
+          "request_to_claim_s": 0.028,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.301,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.35,
+          "new_score": 0.433,
+          "delta": 0.083
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_3_ca629e",
+      "prompt": "Calculate 15 plus 27",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 206.387,
+        "agent_execution_s": 0.174,
+        "network_overhead_s": 0.015,
+        "broker_round_trip_s": 2.663,
+        "total_time_s": 209.05
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766875343.445,
+          "claim_time": 1766875343.46,
+          "request_to_claim_s": 0.015,
+          "claim_agent": "math_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.174,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.35,
+          "new_score": 0.433,
+          "delta": 0.083
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_4_ee73c4",
+      "prompt": "Explain what is machine learning",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 6.836,
+        "agent_execution_s": 2.146,
+        "network_overhead_s": 0.716,
+        "broker_round_trip_s": 19.865,
+        "total_time_s": 26.701
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766875525.308,
+          "claim_time": 1766875526.024,
+          "request_to_claim_s": 0.716,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.146,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.433,
+          "new_score": 0.505,
+          "delta": 0.072
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_5_6d5ff9",
+      "prompt": "Translate hello to Arabic",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 6.995,
+        "agent_execution_s": 0.505,
+        "network_overhead_s": 0.052,
+        "broker_round_trip_s": 0.82,
+        "total_time_s": 7.815
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766875699.797,
+          "claim_time": 1766875699.849,
+          "request_to_claim_s": 0.052,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.505,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.35,
+          "new_score": 0.399,
+          "delta": 0.049
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_6_2d7e55",
+      "prompt": "Write Python code to add two numbers",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 8.16,
+        "agent_execution_s": 1.928,
+        "network_overhead_s": 0.824,
+        "broker_round_trip_s": 18.227,
+        "total_time_s": 26.387
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766875876.949,
+          "claim_time": 1766875877.773,
+          "request_to_claim_s": 0.824,
+          "claim_agent": "code_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.928,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.433,
+          "new_score": 0.505,
+          "delta": 0.072
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_7_65644f",
+      "prompt": "Describe what is a neural network",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 8.984,
+        "agent_execution_s": 2.114,
+        "network_overhead_s": 0.717,
+        "broker_round_trip_s": 19.663,
+        "total_time_s": 28.647
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766876048.571,
+          "claim_time": 1766876049.288,
+          "request_to_claim_s": 0.717,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.114,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.505,
+          "new_score": 0.568,
+          "delta": 0.063
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_8_0d241b",
+      "prompt": "Calculate 100 minus 45",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 7.272,
+        "agent_execution_s": 0.272,
+        "network_overhead_s": 0.819,
+        "broker_round_trip_s": 3.072,
+        "total_time_s": 10.344
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766876226.337,
+          "claim_time": 1766876227.156,
+          "request_to_claim_s": 0.819,
+          "claim_agent": "math_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.272,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.433,
+          "new_score": 0.505,
+          "delta": 0.072
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_9_9a7caa",
+      "prompt": "Write Python code to find the maximum of three numbers",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 180.359,
+        "agent_execution_s": 0.982,
+        "network_overhead_s": 0.615,
+        "broker_round_trip_s": 9.422,
+        "total_time_s": 189.781
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766876406.152,
+          "claim_time": 1766876406.767,
+          "request_to_claim_s": 0.615,
+          "claim_agent": "code_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 0.982,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.505,
+          "new_score": 0.568,
+          "delta": 0.063
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_10_b85a1e",
+      "prompt": "Define what is an algorithm",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 226.703,
+        "agent_execution_s": 2.119,
+        "network_overhead_s": 0.624,
+        "broker_round_trip_s": 19.661,
+        "total_time_s": 246.364
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766876579.414,
+          "claim_time": 1766876580.038,
+          "request_to_claim_s": 0.624,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.119,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.568,
+          "new_score": 0.623,
+          "delta": 0.055
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_11_210031",
+      "prompt": "Calculate 12 multiplied by 8",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 7.173,
+        "agent_execution_s": 3.675,
+        "network_overhead_s": 0.614,
+        "broker_round_trip_s": 32.972,
+        "total_time_s": 40.145
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766876755.338,
+          "claim_time": 1766876755.952,
+          "request_to_claim_s": 0.614,
+          "claim_agent": "math_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 3.675,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.505,
+          "new_score": 0.561,
+          "delta": 0.056
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_12_e2a8f5",
+      "prompt": "Write Python code to reverse a string",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 6.926,
+        "agent_execution_s": 1.952,
+        "network_overhead_s": 0.614,
+        "broker_round_trip_s": 17.92,
+        "total_time_s": 24.846
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766876934.538,
+          "claim_time": 1766876935.152,
+          "request_to_claim_s": 0.614,
+          "claim_agent": "code_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.952,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.568,
+          "new_score": 0.623,
+          "delta": 0.055
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_13_a894f3",
+      "prompt": "Explain what is cloud computing",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 6.335,
+        "agent_execution_s": 2.133,
+        "network_overhead_s": 0.434,
+        "broker_round_trip_s": 19.303,
+        "total_time_s": 25.638
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766877103.036,
+          "claim_time": 1766877103.47,
+          "request_to_claim_s": 0.434,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.133,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.623,
+          "new_score": 0.671,
+          "delta": 0.048
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_14_b0ae12",
+      "prompt": "Calculate the square of 9",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 7.047,
+        "agent_execution_s": 0.163,
+        "network_overhead_s": 0.615,
+        "broker_round_trip_s": 2.253,
+        "total_time_s": 9.3
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766877280.649,
+          "claim_time": 1766877281.264,
+          "request_to_claim_s": 0.615,
+          "claim_agent": "math_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.163,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.561,
+          "new_score": 0.617,
+          "delta": 0.056
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_15_5d0339",
+      "prompt": "Translate thank you to Arabic",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 169.593,
+        "agent_execution_s": 0.487,
+        "network_overhead_s": 0.82,
+        "broker_round_trip_s": 1.23,
+        "total_time_s": 170.823
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766877450.018,
+          "claim_time": 1766877450.838,
+          "request_to_claim_s": 0.82,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.487,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.399,
+          "new_score": 0.445,
+          "delta": 0.046
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_16_016c71",
+      "prompt": "Write Python code to check if a number is even",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 223.501,
+        "agent_execution_s": 2.076,
+        "network_overhead_s": 0.512,
+        "broker_round_trip_s": 18.534,
+        "total_time_s": 242.035
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766877627.888,
+          "claim_time": 1766877628.4,
+          "request_to_claim_s": 0.512,
+          "claim_agent": "code_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 2.076,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.623,
+          "new_score": 0.671,
+          "delta": 0.048
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_17_067fb7",
+      "prompt": "Describe what is the internet",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 7.848,
+        "agent_execution_s": 2.21,
+        "network_overhead_s": 0.41,
+        "broker_round_trip_s": 19.661,
+        "total_time_s": 27.509
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766877801.66,
+          "claim_time": 1766877802.07,
+          "request_to_claim_s": 0.41,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.21,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.671,
+          "new_score": 0.713,
+          "delta": 0.042
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_18_ce0c65",
+      "prompt": "Calculate 50 divided by 5",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 7.527,
+        "agent_execution_s": 0.15,
+        "network_overhead_s": 0.543,
+        "broker_round_trip_s": 2.08,
+        "total_time_s": 9.607
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766877984.719,
+          "claim_time": 1766877985.262,
+          "request_to_claim_s": 0.543,
+          "claim_agent": "math_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.15,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.617,
+          "new_score": 0.666,
+          "delta": 0.049
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_19_015174",
+      "prompt": "Write Python code to calculate the sum of a list",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 6.74,
+        "agent_execution_s": 2.102,
+        "network_overhead_s": 0.41,
+        "broker_round_trip_s": 19.047,
+        "total_time_s": 25.787
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766878158.011,
+          "claim_time": 1766878158.421,
+          "request_to_claim_s": 0.41,
+          "claim_agent": "code_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 2.102,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.671,
+          "new_score": 0.713,
+          "delta": 0.042
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_20_c54ff0",
+      "prompt": "Define what is a database",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 7.377,
+        "agent_execution_s": 2.034,
+        "network_overhead_s": 0.41,
+        "broker_round_trip_s": 18.431,
+        "total_time_s": 25.808
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766878354.817,
+          "claim_time": 1766878355.227,
+          "request_to_claim_s": 0.41,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.034,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.713,
+          "new_score": 0.75,
+          "delta": 0.037
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_21_807f3b",
+      "prompt": "Translate good morning to Arabic",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 5.87,
+        "agent_execution_s": 1.682,
+        "network_overhead_s": 0.614,
+        "broker_round_trip_s": 2.458,
+        "total_time_s": 8.328
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766878531.958,
+          "claim_time": 1766878532.572,
+          "request_to_claim_s": 0.614,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 1.682,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.445,
+          "new_score": 0.476,
+          "delta": 0.031
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_22_df2517",
+      "prompt": "Explain what is encryption",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 243.923,
+        "agent_execution_s": 2.332,
+        "network_overhead_s": 0.41,
+        "broker_round_trip_s": 20.787,
+        "total_time_s": 264.71
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766878717.805,
+          "claim_time": 1766878718.215,
+          "request_to_claim_s": 0.41,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.332,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.75,
+          "new_score": 0.782,
+          "delta": 0.032
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_23_23f91d",
+      "prompt": "Translate goodbye to Arabic",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 7.536,
+        "agent_execution_s": 0.414,
+        "network_overhead_s": 0.615,
+        "broker_round_trip_s": 1.126,
+        "total_time_s": 8.662
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766878895.667,
+          "claim_time": 1766878896.282,
+          "request_to_claim_s": 0.615,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.414,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.476,
+          "new_score": 0.519,
+          "delta": 0.043
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_24_9e4e80",
+      "prompt": "Translate welcome to Arabic",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 6.8,
+        "agent_execution_s": 0.395,
+        "network_overhead_s": 0.614,
+        "broker_round_trip_s": 1.024,
+        "total_time_s": 7.824
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766879074.657,
+          "claim_time": 1766879075.271,
+          "request_to_claim_s": 0.614,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.395,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.519,
+          "new_score": 0.559,
+          "delta": 0.04
+        }
+      ]
+    },
+    {
+      "task_id": "single_task_25_824d26",
+      "prompt": "Translate computer to Arabic",
+      "difficulty": "single_task",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 7.69,
+        "agent_execution_s": 0.168,
+        "network_overhead_s": 0.614,
+        "broker_round_trip_s": 0.818,
+        "total_time_s": 8.508
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766879255.491,
+          "claim_time": 1766879256.105,
+          "request_to_claim_s": 0.614,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.168,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.559,
+          "new_score": 0.615,
+          "delta": 0.056
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_1_f0d137",
+      "prompt": "Define what is artificial intelligence AND explain what is machine learning",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 7.173,
+        "agent_execution_s": 4.376,
+        "network_overhead_s": 0.574,
+        "broker_round_trip_s": 39.116,
+        "total_time_s": 46.289
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766879449.227,
+          "claim_time": 1766879449.534,
+          "request_to_claim_s": 0.307,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766879449.271,
+          "claim_time": 1766879449.538,
+          "request_to_claim_s": 0.267,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.198,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.178,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.782,
+          "new_score": 0.81,
+          "delta": 0.028
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.81,
+          "new_score": 0.834,
+          "delta": 0.024
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_2_f41217",
+      "prompt": "Calculate 15 plus 27 AND calculate 100 minus 45",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 8.219,
+        "agent_execution_s": 0.57,
+        "network_overhead_s": 0.78,
+        "broker_round_trip_s": 5.018,
+        "total_time_s": 13.237
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766879638.56,
+          "claim_time": 1766879638.97,
+          "request_to_claim_s": 0.41,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766879638.604,
+          "claim_time": 1766879638.974,
+          "request_to_claim_s": 0.37,
+          "claim_agent": "math_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.269,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.301,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.666,
+          "new_score": 0.709,
+          "delta": 0.043
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.709,
+          "new_score": 0.746,
+          "delta": 0.037
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_3_8bf615",
+      "prompt": "Write Python code to print Hello World AND define what is programming",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 195.78,
+        "agent_execution_s": 4.053,
+        "network_overhead_s": 0.611,
+        "broker_round_trip_s": 19.866,
+        "total_time_s": 215.646
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766879824.822,
+          "claim_time": 1766879825.169,
+          "request_to_claim_s": 0.347,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766879824.866,
+          "claim_time": 1766879825.13,
+          "request_to_claim_s": 0.264,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.845,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.208,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.713,
+          "new_score": 0.75,
+          "delta": 0.037
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.834,
+          "new_score": 0.855,
+          "delta": 0.021
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_4_36b81c",
+      "prompt": "Translate good morning to Arabic AND translate good evening to Arabic",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 220.847,
+        "agent_execution_s": 8.133,
+        "network_overhead_s": 1.189,
+        "broker_round_trip_s": 8.807,
+        "total_time_s": 229.654
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766880012.621,
+          "claim_time": 1766880013.236,
+          "request_to_claim_s": 0.615,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766880012.665,
+          "claim_time": 1766880013.239,
+          "request_to_claim_s": 0.574,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 1.663,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 6.47,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.615,
+          "new_score": 0.636,
+          "delta": 0.021
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.637,
+          "new_score": 0.655,
+          "delta": 0.018
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_5_44a26e",
+      "prompt": "Describe what is a neural network AND define what is an algorithm",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 8.375,
+        "agent_execution_s": 4.169,
+        "network_overhead_s": 0.381,
+        "broker_round_trip_s": 37.888,
+        "total_time_s": 46.263
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766880216.394,
+          "claim_time": 1766880216.598,
+          "request_to_claim_s": 0.204,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766880216.438,
+          "claim_time": 1766880216.615,
+          "request_to_claim_s": 0.177,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.067,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.102,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.855,
+          "new_score": 0.874,
+          "delta": 0.018
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.873,
+          "new_score": 0.889,
+          "delta": 0.016
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_6_56df11",
+      "prompt": "Calculate 12 multiplied by 8 AND calculate the square of 9",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 7.951,
+        "agent_execution_s": 0.376,
+        "network_overhead_s": 0.778,
+        "broker_round_trip_s": 3.789,
+        "total_time_s": 11.74
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766880413.511,
+          "claim_time": 1766880413.921,
+          "request_to_claim_s": 0.41,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766880413.556,
+          "claim_time": 1766880413.924,
+          "request_to_claim_s": 0.368,
+          "claim_agent": "math_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.221,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.155,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.746,
+          "new_score": 0.778,
+          "delta": 0.032
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.778,
+          "new_score": 0.806,
+          "delta": 0.028
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_7_34c6b7",
+      "prompt": "Write Python code to add two numbers AND explain what is addition",
+      "difficulty": "two_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 8.339,
+        "agent_execution_s": 6.238,
+        "network_overhead_s": 0.436,
+        "broker_round_trip_s": 59.801,
+        "total_time_s": 68.14
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766880599.159,
+          "claim_time": 1766880599.467,
+          "request_to_claim_s": 0.308,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766880616.976,
+          "claim_time": 1766880617.104,
+          "request_to_claim_s": 0.128,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.962,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 4.276,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.75,
+          "new_score": 0.782,
+          "delta": 0.032
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.889,
+          "new_score": 0.903,
+          "delta": 0.014
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_8_1c443b",
+      "prompt": "Explain what is cloud computing AND describe what is the internet",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 8.084,
+        "agent_execution_s": 8.345,
+        "network_overhead_s": 0.298,
+        "broker_round_trip_s": 37.584,
+        "total_time_s": 45.668
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766880773.953,
+          "claim_time": 1766880774.094,
+          "request_to_claim_s": 0.141,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766880773.996,
+          "claim_time": 1766880774.153,
+          "request_to_claim_s": 0.157,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 6.266,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.079,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.903,
+          "new_score": 0.915,
+          "delta": 0.012
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.915,
+          "new_score": 0.926,
+          "delta": 0.011
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_9_508745",
+      "prompt": "Calculate 10 plus 20 AND translate hello to Arabic",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 9.698,
+        "agent_execution_s": 0.62,
+        "network_overhead_s": 0.773,
+        "broker_round_trip_s": 3.072,
+        "total_time_s": 12.77
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766880975.986,
+          "claim_time": 1766880976.293,
+          "request_to_claim_s": 0.307,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766880976.031,
+          "claim_time": 1766880976.497,
+          "request_to_claim_s": 0.466,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.326,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.294,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.655,
+          "new_score": 0.686,
+          "delta": 0.031
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.806,
+          "new_score": 0.831,
+          "delta": 0.025
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_10_8af6b0",
+      "prompt": "Write Python code to reverse a string AND describe what is a string",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 8.2,
+        "agent_execution_s": 3.966,
+        "network_overhead_s": 0.503,
+        "broker_round_trip_s": 20.066,
+        "total_time_s": 28.266
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766881167.306,
+          "claim_time": 1766881167.586,
+          "request_to_claim_s": 0.28,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766881167.35,
+          "claim_time": 1766881167.573,
+          "request_to_claim_s": 0.223,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.736,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.231,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.782,
+          "new_score": 0.81,
+          "delta": 0.028
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.926,
+          "new_score": 0.935,
+          "delta": 0.009
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_11_d184a1",
+      "prompt": "Define what is a database AND explain what is encryption",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 8.184,
+        "agent_execution_s": 3.442,
+        "network_overhead_s": 0.213,
+        "broker_round_trip_s": 30.72,
+        "total_time_s": 38.904
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766881348.307,
+          "claim_time": 1766881348.425,
+          "request_to_claim_s": 0.118,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766881348.351,
+          "claim_time": 1766881348.446,
+          "request_to_claim_s": 0.095,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 1.322,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.121,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.935,
+          "new_score": 0.943,
+          "delta": 0.008
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.943,
+          "new_score": 0.95,
+          "delta": 0.007
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_12_f1f725",
+      "prompt": "Calculate 50 divided by 5 AND calculate 20 plus 30",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 230.903,
+        "agent_execution_s": 0.333,
+        "network_overhead_s": 0.575,
+        "broker_round_trip_s": 3.892,
+        "total_time_s": 234.795
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766881549.417,
+          "claim_time": 1766881549.725,
+          "request_to_claim_s": 0.308,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766881549.462,
+          "claim_time": 1766881549.729,
+          "request_to_claim_s": 0.267,
+          "claim_agent": "math_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.124,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.209,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.831,
+          "new_score": 0.853,
+          "delta": 0.021
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.853,
+          "new_score": 0.872,
+          "delta": 0.019
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_13_df1aa5",
+      "prompt": "Write Python code to check if a number is even AND define what is an even number",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 196.439,
+        "agent_execution_s": 3.941,
+        "network_overhead_s": 0.312,
+        "broker_round_trip_s": 19.967,
+        "total_time_s": 216.406
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766881740.596,
+          "claim_time": 1766881740.815,
+          "request_to_claim_s": 0.219,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766881740.64,
+          "claim_time": 1766881740.733,
+          "request_to_claim_s": 0.093,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.75,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.191,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.81,
+          "new_score": 0.834,
+          "delta": 0.024
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.95,
+          "new_score": 0.956,
+          "delta": 0.006
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_14_98cb72",
+      "prompt": "Translate cat to Arabic AND translate dog to Arabic",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 8.246,
+        "agent_execution_s": 0.609,
+        "network_overhead_s": 0.776,
+        "broker_round_trip_s": 1.126,
+        "total_time_s": 9.372
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766881929.726,
+          "claim_time": 1766881930.135,
+          "request_to_claim_s": 0.409,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766881929.773,
+          "claim_time": 1766881930.14,
+          "request_to_claim_s": 0.367,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.295,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.314,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.686,
+          "new_score": 0.716,
+          "delta": 0.03
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.716,
+          "new_score": 0.742,
+          "delta": 0.026
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_15_2f7249",
+      "prompt": "Calculate 7 multiplied by 6 AND calculate 100 divided by 4",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 9.062,
+        "agent_execution_s": 0.47,
+        "network_overhead_s": 0.328,
+        "broker_round_trip_s": 4.506,
+        "total_time_s": 13.568
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766882127.355,
+          "claim_time": 1766882127.497,
+          "request_to_claim_s": 0.142,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766882127.399,
+          "claim_time": 1766882127.585,
+          "request_to_claim_s": 0.186,
+          "claim_agent": "math_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.218,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.252,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.872,
+          "new_score": 0.888,
+          "delta": 0.016
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.888,
+          "new_score": 0.902,
+          "delta": 0.014
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_16_6a2f0c",
+      "prompt": "Write Python code to calculate sum of a list AND explain what is a list",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 9.653,
+        "agent_execution_s": 3.885,
+        "network_overhead_s": 0.36,
+        "broker_round_trip_s": 19.967,
+        "total_time_s": 29.62
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766882316.383,
+          "claim_time": 1766882316.689,
+          "request_to_claim_s": 0.306,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766882316.427,
+          "claim_time": 1766882316.481,
+          "request_to_claim_s": 0.054,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.713,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.172,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.834,
+          "new_score": 0.855,
+          "delta": 0.021
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.956,
+          "new_score": 0.962,
+          "delta": 0.006
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_17_36f125",
+      "prompt": "Translate water to Arabic AND calculate 5 multiplied by 5",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 8.534,
+        "agent_execution_s": 3.644,
+        "network_overhead_s": 0.431,
+        "broker_round_trip_s": 3.892,
+        "total_time_s": 12.426
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766882505.021,
+          "claim_time": 1766882505.293,
+          "request_to_claim_s": 0.272,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766882505.066,
+          "claim_time": 1766882505.225,
+          "request_to_claim_s": 0.159,
+          "claim_agent": "math_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.246,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 3.398,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.902,
+          "new_score": 0.914,
+          "delta": 0.013
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.742,
+          "new_score": 0.755,
+          "delta": 0.013
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_18_9191f7",
+      "prompt": "Calculate the square of 5 AND calculate 13 plus 17",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 11.37,
+        "agent_execution_s": 0.454,
+        "network_overhead_s": 0.252,
+        "broker_round_trip_s": 3.94,
+        "total_time_s": 15.31
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766882689.359,
+          "claim_time": 1766882689.471,
+          "request_to_claim_s": 0.112,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766882689.405,
+          "claim_time": 1766882689.545,
+          "request_to_claim_s": 0.14,
+          "claim_agent": "math_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.212,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.242,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.914,
+          "new_score": 0.925,
+          "delta": 0.011
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.925,
+          "new_score": 0.935,
+          "delta": 0.01
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_19_39d0ba",
+      "prompt": "Write Python code to find maximum of two numbers AND define what is maximum",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 9.427,
+        "agent_execution_s": 4.03,
+        "network_overhead_s": 0.262,
+        "broker_round_trip_s": 19.866,
+        "total_time_s": 29.293
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766882870.62,
+          "claim_time": 1766882870.808,
+          "request_to_claim_s": 0.188,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766882870.664,
+          "claim_time": 1766882870.738,
+          "request_to_claim_s": 0.074,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.798,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.232,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.855,
+          "new_score": 0.874,
+          "delta": 0.018
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.962,
+          "new_score": 0.967,
+          "delta": 0.005
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_20_f7a105",
+      "prompt": "Translate sun to Arabic AND translate moon to Arabic",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 7.809,
+        "agent_execution_s": 1.36,
+        "network_overhead_s": 0.597,
+        "broker_round_trip_s": 1.945,
+        "total_time_s": 9.754
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766883051.058,
+          "claim_time": 1766883051.364,
+          "request_to_claim_s": 0.306,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766883051.103,
+          "claim_time": 1766883051.394,
+          "request_to_claim_s": 0.291,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.328,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 1.032,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.755,
+          "new_score": 0.777,
+          "delta": 0.022
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.777,
+          "new_score": 0.791,
+          "delta": 0.014
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_21_2e7160",
+      "prompt": "Explain what is gravity AND calculate 100 minus 25",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 9.273,
+        "agent_execution_s": 2.401,
+        "network_overhead_s": 0.163,
+        "broker_round_trip_s": 19.047,
+        "total_time_s": 28.32
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766883242.553,
+          "claim_time": 1766883242.619,
+          "request_to_claim_s": 0.066,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766883242.598,
+          "claim_time": 1766883242.695,
+          "request_to_claim_s": 0.097,
+          "claim_agent": "math_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.266,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.134,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.935,
+          "new_score": 0.943,
+          "delta": 0.008
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.967,
+          "new_score": 0.971,
+          "delta": 0.004
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_22_d7c119",
+      "prompt": "Translate hot to Arabic AND translate cold to Arabic",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 187.012,
+        "agent_execution_s": 8.662,
+        "network_overhead_s": 0.557,
+        "broker_round_trip_s": 8.969,
+        "total_time_s": 195.981
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766883420.351,
+          "claim_time": 1766883420.631,
+          "request_to_claim_s": 0.28,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766883420.358,
+          "claim_time": 1766883420.635,
+          "request_to_claim_s": 0.277,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.671,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 7.991,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.791,
+          "new_score": 0.805,
+          "delta": 0.014
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.805,
+          "new_score": 0.815,
+          "delta": 0.01
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_23_97f7e0",
+      "prompt": "Write Python code to count vowels in a string AND explain what is a vowel",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 199.198,
+        "agent_execution_s": 3.966,
+        "network_overhead_s": 0.205,
+        "broker_round_trip_s": 20.066,
+        "total_time_s": 219.264
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766883617.146,
+          "claim_time": 1766883617.304,
+          "request_to_claim_s": 0.158,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766883617.19,
+          "claim_time": 1766883617.237,
+          "request_to_claim_s": 0.047,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.786,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.18,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.873,
+          "new_score": 0.889,
+          "delta": 0.016
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.971,
+          "new_score": 0.975,
+          "delta": 0.004
+        }
+      ]
+    },
+    {
+      "task_id": "two_tasks_24_34a6f6",
+      "prompt": "Translate yes to Arabic AND translate no to Arabic",
+      "difficulty": "two_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 200.693,
+        "agent_execution_s": 0.581,
+        "network_overhead_s": 0.574,
+        "broker_round_trip_s": 0.922,
+        "total_time_s": 201.615
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766883801.669,
+          "claim_time": 1766883801.976,
+          "request_to_claim_s": 0.307,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766883801.713,
+          "claim_time": 1766883801.98,
+          "request_to_claim_s": 0.267,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.291,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.291,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.815,
+          "new_score": 0.833,
+          "delta": 0.018
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.833,
+          "new_score": 0.849,
+          "delta": 0.016
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_1_d3c34e",
+      "prompt": "Define artificial intelligence AND explain machine learning AND calculate 10 plus 5 AND translate computer to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 4,
+      "timing": {
+        "decomposition_s": 11.607,
+        "agent_execution_s": 4.551,
+        "network_overhead_s": 0.402,
+        "broker_round_trip_s": 38.092,
+        "total_time_s": 49.699
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766884200.831,
+          "claim_time": 1766884200.883,
+          "request_to_claim_s": 0.052,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766884200.874,
+          "claim_time": 1766884200.937,
+          "request_to_claim_s": 0.063,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766884200.875,
+          "claim_time": 1766884200.98,
+          "request_to_claim_s": 0.105,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766884200.879,
+          "claim_time": 1766884201.061,
+          "request_to_claim_s": 0.182,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.167,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.204,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.122,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.058,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.849,
+          "new_score": 0.868,
+          "delta": 0.019
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.943,
+          "new_score": 0.95,
+          "delta": 0.007
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.975,
+          "new_score": 0.978,
+          "delta": 0.003
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.978,
+          "new_score": 0.981,
+          "delta": 0.003
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_2_7cb766",
+      "prompt": "Write Python code to print hello AND define what is Python AND calculate 20 minus 8 AND translate hello to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 4,
+      "timing": {
+        "decomposition_s": 12.661,
+        "agent_execution_s": 3.986,
+        "network_overhead_s": 0.439,
+        "broker_round_trip_s": 15.984,
+        "total_time_s": 28.645
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766884410.138,
+          "claim_time": 1766884410.295,
+          "request_to_claim_s": 0.157,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766884410.183,
+          "claim_time": 1766884410.236,
+          "request_to_claim_s": 0.053,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766884410.183,
+          "claim_time": 1766884410.251,
+          "request_to_claim_s": 0.068,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766884410.183,
+          "claim_time": 1766884410.344,
+          "request_to_claim_s": 0.161,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.352,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.266,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 1.599,
+          "status": "completed"
+        },
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.77,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.868,
+          "new_score": 0.879,
+          "delta": 0.011
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.95,
+          "new_score": 0.956,
+          "delta": 0.006
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.981,
+          "new_score": 0.983,
+          "delta": 0.002
+        },
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.889,
+          "new_score": 0.903,
+          "delta": 0.014
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_3_1ea4d5",
+      "prompt": "Calculate 5 plus 5 AND write Python code to print result AND define addition AND translate number to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 197.572,
+        "agent_execution_s": 2.098,
+        "network_overhead_s": 0.203,
+        "broker_round_trip_s": 20.181,
+        "total_time_s": 217.753
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766884631.206,
+          "claim_time": 1766884631.273,
+          "request_to_claim_s": 0.067,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766884632.955,
+          "claim_time": 1766884633.091,
+          "request_to_claim_s": 0.136,
+          "claim_agent": "code_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.15,
+          "status": "completed"
+        },
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.948,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.956,
+          "new_score": 0.962,
+          "delta": 0.006
+        },
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.903,
+          "new_score": 0.915,
+          "delta": 0.012
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_4_f8ff58",
+      "prompt": "Explain cloud computing AND describe the internet AND calculate 6 multiplied by 7 AND translate internet to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 4,
+      "timing": {
+        "decomposition_s": 11.91,
+        "agent_execution_s": 4.559,
+        "network_overhead_s": 0.441,
+        "broker_round_trip_s": 37.682,
+        "total_time_s": 49.592
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766884842.463,
+          "claim_time": 1766884842.488,
+          "request_to_claim_s": 0.025,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766884842.506,
+          "claim_time": 1766884842.576,
+          "request_to_claim_s": 0.07,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766884842.506,
+          "claim_time": 1766884842.6,
+          "request_to_claim_s": 0.094,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766884842.517,
+          "claim_time": 1766884842.769,
+          "request_to_claim_s": 0.252,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.153,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.201,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.129,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.076,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.88,
+          "new_score": 0.895,
+          "delta": 0.015
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.962,
+          "new_score": 0.967,
+          "delta": 0.005
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.983,
+          "new_score": 0.985,
+          "delta": 0.002
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.985,
+          "new_score": 0.987,
+          "delta": 0.002
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_5_e54748",
+      "prompt": "Write Python code to greet user AND translate welcome to Arabic AND calculate 10 plus 10 AND explain what is greeting",
+      "difficulty": "four_tasks",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 192.402,
+        "agent_execution_s": 0.425,
+        "network_overhead_s": 0.323,
+        "broker_round_trip_s": 19.455,
+        "total_time_s": 211.857
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766885062.826,
+          "claim_time": 1766885062.94,
+          "request_to_claim_s": 0.114,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766885062.869,
+          "claim_time": 1766885063.017,
+          "request_to_claim_s": 0.148,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766885062.87,
+          "claim_time": 1766885062.931,
+          "request_to_claim_s": 0.061,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766885078.8,
+          "claim_time": 1766885065.726,
+          "request_to_claim_s": 0,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.425,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.895,
+          "new_score": 0.903,
+          "delta": 0.008
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_6_66e994",
+      "prompt": "Define database AND explain encryption AND calculate 100 divided by 4 AND translate security to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 4,
+      "timing": {
+        "decomposition_s": 191.823,
+        "agent_execution_s": 4.577,
+        "network_overhead_s": 0.319,
+        "broker_round_trip_s": 37.069,
+        "total_time_s": 228.892
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766885273.154,
+          "claim_time": 1766885273.184,
+          "request_to_claim_s": 0.03,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766885273.198,
+          "claim_time": 1766885273.285,
+          "request_to_claim_s": 0.087,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766885273.198,
+          "claim_time": 1766885273.251,
+          "request_to_claim_s": 0.053,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766885273.199,
+          "claim_time": 1766885273.348,
+          "request_to_claim_s": 0.149,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.16,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.296,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.115,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.007,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.903,
+          "new_score": 0.915,
+          "delta": 0.012
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.967,
+          "new_score": 0.971,
+          "delta": 0.004
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.987,
+          "new_score": 0.989,
+          "delta": 0.002
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.989,
+          "new_score": 0.99,
+          "delta": 0.001
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_7_e96356",
+      "prompt": "Calculate square of 4 AND calculate square of 6 AND define what is square AND translate mathematics to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 190.723,
+        "agent_execution_s": 0.837,
+        "network_overhead_s": 0.156,
+        "broker_round_trip_s": 3.733,
+        "total_time_s": 194.456
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766885486.918,
+          "claim_time": 1766885486.987,
+          "request_to_claim_s": 0.069,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766885486.962,
+          "claim_time": 1766885487.012,
+          "request_to_claim_s": 0.05,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766885486.962,
+          "claim_time": 1766885486.999,
+          "request_to_claim_s": 0.037,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766885505.806,
+          "claim_time": 1766885489.755,
+          "request_to_claim_s": 0,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.26,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.577,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.971,
+          "new_score": 0.975,
+          "delta": 0.004
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.915,
+          "new_score": 0.921,
+          "delta": 0.006
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_8_7afd6c",
+      "prompt": "Write Python code to reverse string AND explain what is string AND calculate 15 plus 15 AND translate text to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 4,
+      "timing": {
+        "decomposition_s": 201.353,
+        "agent_execution_s": 9.697,
+        "network_overhead_s": 0.355,
+        "broker_round_trip_s": 17.613,
+        "total_time_s": 218.966
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766885710.81,
+          "claim_time": 1766885710.92,
+          "request_to_claim_s": 0.11,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766885710.854,
+          "claim_time": 1766885710.906,
+          "request_to_claim_s": 0.052,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766885710.855,
+          "claim_time": 1766885710.929,
+          "request_to_claim_s": 0.074,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766885710.855,
+          "claim_time": 1766885710.974,
+          "request_to_claim_s": 0.119,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.436,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.297,
+          "status": "completed"
+        },
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.777,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 7.187,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.921,
+          "new_score": 0.927,
+          "delta": 0.006
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.975,
+          "new_score": 0.978,
+          "delta": 0.003
+        },
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.915,
+          "new_score": 0.926,
+          "delta": 0.011
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.99,
+          "new_score": 0.991,
+          "delta": 0.001
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_9_3adc77",
+      "prompt": "Explain programming AND define variable AND calculate 50 minus 20 AND translate code to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 200.287,
+        "agent_execution_s": 0.659,
+        "network_overhead_s": 0.262,
+        "broker_round_trip_s": 3.686,
+        "total_time_s": 203.973
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766885928.513,
+          "claim_time": 1766885928.546,
+          "request_to_claim_s": 0.033,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766885928.557,
+          "claim_time": 1766885928.718,
+          "request_to_claim_s": 0.161,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766885928.557,
+          "claim_time": 1766885928.625,
+          "request_to_claim_s": 0.068,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766885964.967,
+          "claim_time": 1766885931.496,
+          "request_to_claim_s": 0,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.166,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.493,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.978,
+          "new_score": 0.981,
+          "delta": 0.003
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.927,
+          "new_score": 0.932,
+          "delta": 0.005
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_10_256b63",
+      "prompt": "Define computer AND calculate 20 minus 5 AND write Python code to print message AND translate machine to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 4,
+      "timing": {
+        "decomposition_s": 180.45,
+        "agent_execution_s": 6.738,
+        "network_overhead_s": 0.33,
+        "broker_round_trip_s": 18.435,
+        "total_time_s": 198.885
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766886137.613,
+          "claim_time": 1766886137.662,
+          "request_to_claim_s": 0.049,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766886137.657,
+          "claim_time": 1766886137.728,
+          "request_to_claim_s": 0.071,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766886137.657,
+          "claim_time": 1766886137.755,
+          "request_to_claim_s": 0.098,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766886137.657,
+          "claim_time": 1766886137.769,
+          "request_to_claim_s": 0.112,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.163,
+          "status": "completed"
+        },
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 0.167,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.251,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 6.156,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.933,
+          "new_score": 0.942,
+          "delta": 0.009
+        },
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.926,
+          "new_score": 0.935,
+          "delta": 0.009
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.981,
+          "new_score": 0.983,
+          "delta": 0.002
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.991,
+          "new_score": 0.992,
+          "delta": 0.001
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_11_8b053e",
+      "prompt": "Calculate 7 plus 13 AND calculate 25 minus 10 AND define addition AND translate calculate to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 205.43,
+        "agent_execution_s": 0.721,
+        "network_overhead_s": 0.168,
+        "broker_round_trip_s": 3.174,
+        "total_time_s": 208.604
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766886369.243,
+          "claim_time": 1766886369.295,
+          "request_to_claim_s": 0.052,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766886369.287,
+          "claim_time": 1766886369.356,
+          "request_to_claim_s": 0.069,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766886369.295,
+          "claim_time": 1766886369.342,
+          "request_to_claim_s": 0.047,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766886388.494,
+          "claim_time": 1766886371.766,
+          "request_to_claim_s": 0,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.237,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.484,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.983,
+          "new_score": 0.985,
+          "delta": 0.002
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.942,
+          "new_score": 0.946,
+          "delta": 0.004
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_12_2841e2",
+      "prompt": "Write Python code to check even number AND define even number AND calculate 9 multiplied by 3 AND translate even to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 200.183,
+        "agent_execution_s": 0.716,
+        "network_overhead_s": 0.23,
+        "broker_round_trip_s": 3.276,
+        "total_time_s": 203.459
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766886590.008,
+          "claim_time": 1766886590.116,
+          "request_to_claim_s": 0.108,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766886590.052,
+          "claim_time": 1766886590.12,
+          "request_to_claim_s": 0.068,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766886590.053,
+          "claim_time": 1766886590.107,
+          "request_to_claim_s": 0.054,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766886606.595,
+          "claim_time": 1766886592.579,
+          "request_to_claim_s": 0,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.215,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.501,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.985,
+          "new_score": 0.987,
+          "delta": 0.002
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.946,
+          "new_score": 0.95,
+          "delta": 0.004
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_13_edd233",
+      "prompt": "Explain variables AND define data types AND calculate 5 multiplied by 5 AND translate data to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 3,
+      "timing": {
+        "decomposition_s": 7.472,
+        "agent_execution_s": 7.557,
+        "network_overhead_s": 0.268,
+        "broker_round_trip_s": 37.684,
+        "total_time_s": 45.156
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766886809.336,
+          "claim_time": 1766886809.361,
+          "request_to_claim_s": 0.025,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766886809.38,
+          "claim_time": 1766886809.475,
+          "request_to_claim_s": 0.095,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766886809.38,
+          "claim_time": 1766886809.434,
+          "request_to_claim_s": 0.054,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766886811.179,
+          "claim_time": 1766886811.273,
+          "request_to_claim_s": 0.094,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.156,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 5.269,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.133,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.987,
+          "new_score": 0.989,
+          "delta": 0.002
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.95,
+          "new_score": 0.953,
+          "delta": 0.003
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.992,
+          "new_score": 0.993,
+          "delta": 0.001
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_16_fac54c",
+      "prompt": "Write Python code to create list AND explain what is list AND calculate 36 divided by 6 AND translate list to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 10.48,
+        "agent_execution_s": 7.471,
+        "network_overhead_s": 0.152,
+        "broker_round_trip_s": 9.83,
+        "total_time_s": 20.31
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766887475.327,
+          "claim_time": 1766887475.442,
+          "request_to_claim_s": 0.115,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766887475.37,
+          "claim_time": 1766887475.387,
+          "request_to_claim_s": 0.017,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766887475.386,
+          "claim_time": 1766887475.406,
+          "request_to_claim_s": 0.02,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766887493.861,
+          "claim_time": 1766887477.646,
+          "request_to_claim_s": 0,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.214,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 7.257,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.989,
+          "new_score": 0.99,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.953,
+          "new_score": 0.955,
+          "delta": 0.002
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_17_48846b",
+      "prompt": "Define computer AND define CPU AND calculate 40 minus 15 AND translate processor to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 4,
+      "timing": {
+        "decomposition_s": 10.265,
+        "agent_execution_s": 4.402,
+        "network_overhead_s": 0.275,
+        "broker_round_trip_s": 36.864,
+        "total_time_s": 47.129
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766887687.086,
+          "claim_time": 1766887687.128,
+          "request_to_claim_s": 0.042,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766887687.13,
+          "claim_time": 1766887687.274,
+          "request_to_claim_s": 0.144,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766887687.13,
+          "claim_time": 1766887687.158,
+          "request_to_claim_s": 0.028,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766887687.13,
+          "claim_time": 1766887687.191,
+          "request_to_claim_s": 0.061,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.143,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.263,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.008,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 1.988,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.955,
+          "new_score": 0.961,
+          "delta": 0.006
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.99,
+          "new_score": 0.991,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.993,
+          "new_score": 0.994,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.994,
+          "new_score": 0.995,
+          "delta": 0.001
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_18_6badcf",
+      "prompt": "Calculate 100 divided by 10 AND define division AND translate divide to Arabic AND explain what is quotient",
+      "difficulty": "four_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 9.43,
+        "agent_execution_s": 2.306,
+        "network_overhead_s": 0.192,
+        "broker_round_trip_s": 38.503,
+        "total_time_s": 47.933
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766887910.724,
+          "claim_time": 1766887910.785,
+          "request_to_claim_s": 0.061,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766887910.768,
+          "claim_time": 1766887910.802,
+          "request_to_claim_s": 0.034,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766887910.768,
+          "claim_time": 1766887910.865,
+          "request_to_claim_s": 0.097,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766887929.464,
+          "claim_time": 1766887911.441,
+          "request_to_claim_s": 0,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.154,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.151,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.961,
+          "new_score": 0.966,
+          "delta": 0.005
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.995,
+          "new_score": 0.996,
+          "delta": 0.001
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_19_04bf39",
+      "prompt": "Write Python code to find maximum AND explain what is maximum AND calculate 8 multiplied by 4 AND translate maximum to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 9.123,
+        "agent_execution_s": 0.229,
+        "network_overhead_s": 0.183,
+        "broker_round_trip_s": 28.678,
+        "total_time_s": 37.801
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766888123.509,
+          "claim_time": 1766888123.6,
+          "request_to_claim_s": 0.091,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766888123.553,
+          "claim_time": 1766888123.579,
+          "request_to_claim_s": 0.026,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766888123.554,
+          "claim_time": 1766888123.62,
+          "request_to_claim_s": 0.066,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766888136.002,
+          "claim_time": 1766888131.154,
+          "request_to_claim_s": 0,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.229,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.991,
+          "new_score": 0.992,
+          "delta": 0.001
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_20_a226ab",
+      "prompt": "Explain hardware AND describe software AND calculate 64 divided by 8 AND translate software to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 3,
+      "timing": {
+        "decomposition_s": 9.792,
+        "agent_execution_s": 3.454,
+        "network_overhead_s": 0.183,
+        "broker_round_trip_s": 37.683,
+        "total_time_s": 47.475
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766888337.933,
+          "claim_time": 1766888337.977,
+          "request_to_claim_s": 0.044,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766888337.977,
+          "claim_time": 1766888338.016,
+          "request_to_claim_s": 0.039,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766888337.977,
+          "claim_time": 1766888337.998,
+          "request_to_claim_s": 0.021,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766888340.596,
+          "claim_time": 1766888340.675,
+          "request_to_claim_s": 0.079,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.264,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 1.138,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.051,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.992,
+          "new_score": 0.993,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.966,
+          "new_score": 0.968,
+          "delta": 0.002
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.996,
+          "new_score": 0.997,
+          "delta": 0.001
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_21_a5bffd",
+      "prompt": "Calculate 2 plus 2 AND calculate 3 plus 3 AND translate number to Arabic AND define what is number",
+      "difficulty": "four_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 4,
+      "timing": {
+        "decomposition_s": 9.148,
+        "agent_execution_s": 2.84,
+        "network_overhead_s": 0.226,
+        "broker_round_trip_s": 19.046,
+        "total_time_s": 28.194
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766888553.177,
+          "claim_time": 1766888553.243,
+          "request_to_claim_s": 0.066,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766888553.221,
+          "claim_time": 1766888553.282,
+          "request_to_claim_s": 0.061,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766888553.222,
+          "claim_time": 1766888553.275,
+          "request_to_claim_s": 0.053,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766888553.222,
+          "claim_time": 1766888553.268,
+          "request_to_claim_s": 0.046,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.436,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.154,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.159,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.091,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.968,
+          "new_score": 0.971,
+          "delta": 0.003
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.993,
+          "new_score": 0.994,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.994,
+          "new_score": 0.995,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_22_4f6b04",
+      "prompt": "Write Python code to check odd number AND define odd number AND calculate 80 divided by 8 AND translate odd to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 231.475,
+        "agent_execution_s": 0.926,
+        "network_overhead_s": 0.219,
+        "broker_round_trip_s": 3.891,
+        "total_time_s": 235.366
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766888766.375,
+          "claim_time": 1766888766.506,
+          "request_to_claim_s": 0.131,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766888766.419,
+          "claim_time": 1766888766.468,
+          "request_to_claim_s": 0.049,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766888766.419,
+          "claim_time": 1766888766.458,
+          "request_to_claim_s": 0.039,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766888782.042,
+          "claim_time": 1766888769.286,
+          "request_to_claim_s": 0,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.231,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.695,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.995,
+          "new_score": 0.996,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.971,
+          "new_score": 0.973,
+          "delta": 0.002
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_23_d3f13f",
+      "prompt": "Define AI AND define ML AND calculate square of 8 AND translate learning to Arabic",
+      "difficulty": "four_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 4,
+      "timing": {
+        "decomposition_s": 249.976,
+        "agent_execution_s": 4.359,
+        "network_overhead_s": 0.169,
+        "broker_round_trip_s": 36.763,
+        "total_time_s": 286.739
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766888967.592,
+          "claim_time": 1766888967.605,
+          "request_to_claim_s": 0.013,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766888967.636,
+          "claim_time": 1766888967.671,
+          "request_to_claim_s": 0.035,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766888967.636,
+          "claim_time": 1766888967.692,
+          "request_to_claim_s": 0.056,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766888967.636,
+          "claim_time": 1766888967.701,
+          "request_to_claim_s": 0.065,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.138,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.163,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.076,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 1.981,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.973,
+          "new_score": 0.976,
+          "delta": 0.003
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.996,
+          "new_score": 0.997,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "four_tasks_24_867515",
+      "prompt": "Translate cat to Arabic AND translate dog to Arabic AND define what is animal AND explain what is pet",
+      "difficulty": "four_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 210.348,
+        "agent_execution_s": 0.537,
+        "network_overhead_s": 0.146,
+        "broker_round_trip_s": 25.19,
+        "total_time_s": 235.538
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766889185.192,
+          "claim_time": 1766889185.253,
+          "request_to_claim_s": 0.061,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766889185.236,
+          "claim_time": 1766889185.266,
+          "request_to_claim_s": 0.03,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766889185.236,
+          "claim_time": 1766889185.262,
+          "request_to_claim_s": 0.026,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766889193.589,
+          "claim_time": 1766889193.618,
+          "request_to_claim_s": 0.029,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.263,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.273,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.976,
+          "new_score": 0.978,
+          "delta": 0.002
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.978,
+          "new_score": 0.98,
+          "delta": 0.002
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_2_c13e9b",
+      "prompt": "Calculate 1 plus 1 AND translate one to Arabic AND define what is number AND write Python code to print number AND explain integer",
+      "difficulty": "five_tasks",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 11.38,
+        "agent_execution_s": 0.177,
+        "network_overhead_s": 0.162,
+        "broker_round_trip_s": 58.367,
+        "total_time_s": 69.747
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766889856.115,
+          "claim_time": 1766889856.153,
+          "request_to_claim_s": 0.038,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766889856.159,
+          "claim_time": 1766889856.195,
+          "request_to_claim_s": 0.036,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766889856.16,
+          "claim_time": 1766889856.21,
+          "request_to_claim_s": 0.05,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766889872.909,
+          "claim_time": 1766889857.575,
+          "request_to_claim_s": 0,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766889873.932,
+          "claim_time": 1766889873.97,
+          "request_to_claim_s": 0.038,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.177,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.98,
+          "new_score": 0.983,
+          "delta": 0.003
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_3_5c7610",
+      "prompt": "Define AI AND calculate 10 minus 2 AND write Python code to print AI AND translate intelligence to Arabic AND explain artificial",
+      "difficulty": "five_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 10.401,
+        "agent_execution_s": 2.503,
+        "network_overhead_s": 0.225,
+        "broker_round_trip_s": 140.492,
+        "total_time_s": 150.893
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766890087.947,
+          "claim_time": 1766890087.96,
+          "request_to_claim_s": 0.013,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766890087.991,
+          "claim_time": 1766890088.017,
+          "request_to_claim_s": 0.026,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766890087.991,
+          "claim_time": 1766890088.07,
+          "request_to_claim_s": 0.079,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766890103.614,
+          "claim_time": 1766890103.688,
+          "request_to_claim_s": 0.074,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766890151.845,
+          "claim_time": 1766890151.878,
+          "request_to_claim_s": 0.033,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.228,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.275,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_5_cff902",
+      "prompt": "Translate hello to Arabic AND define greeting AND calculate 2 plus 2 AND write Python code to print hello AND explain salutation",
+      "difficulty": "five_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 3,
+      "timing": {
+        "decomposition_s": 8.539,
+        "agent_execution_s": 1.607,
+        "network_overhead_s": 0.516,
+        "broker_round_trip_s": 28.125,
+        "total_time_s": 36.664
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766890541.202,
+          "claim_time": 1766890541.205,
+          "request_to_claim_s": 0.003,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766890541.21,
+          "claim_time": 1766890541.23,
+          "request_to_claim_s": 0.02,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766890541.211,
+          "claim_time": 1766890541.276,
+          "request_to_claim_s": 0.065,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766890541.211,
+          "claim_time": 1766890541.334,
+          "request_to_claim_s": 0.123,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766890543.013,
+          "claim_time": 1766890543.318,
+          "request_to_claim_s": 0.305,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.345,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.159,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 1.103,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.983,
+          "new_score": 0.985,
+          "delta": 0.002
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_6_315e70",
+      "prompt": "Calculate 10 minus 5 AND write Python code to subtract AND translate subtract to Arabic AND define subtraction AND explain difference",
+      "difficulty": "five_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 10.252,
+        "agent_execution_s": 2.311,
+        "network_overhead_s": 0.225,
+        "broker_round_trip_s": 37.889,
+        "total_time_s": 48.141
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766890758.671,
+          "claim_time": 1766890758.703,
+          "request_to_claim_s": 0.032,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766890758.715,
+          "claim_time": 1766890758.792,
+          "request_to_claim_s": 0.077,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766890758.715,
+          "claim_time": 1766890758.77,
+          "request_to_claim_s": 0.055,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766890758.715,
+          "claim_time": 1766890758.776,
+          "request_to_claim_s": 0.061,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766890776.899,
+          "claim_time": 1766890759.9,
+          "request_to_claim_s": 0,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.172,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.139,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.984,
+          "new_score": 0.986,
+          "delta": 0.002
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_7_8820a6",
+      "prompt": "Define multiply AND translate multiply to Arabic AND calculate 4 multiplied by 5 AND write Python code to multiply AND explain product",
+      "difficulty": "five_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 3,
+      "timing": {
+        "decomposition_s": 9.987,
+        "agent_execution_s": 31.955,
+        "network_overhead_s": 0.524,
+        "broker_round_trip_s": 60.417,
+        "total_time_s": 70.404
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766890983.956,
+          "claim_time": 1766890984.022,
+          "request_to_claim_s": 0.066,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766890984.0,
+          "claim_time": 1766890984.022,
+          "request_to_claim_s": 0.022,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766890984.001,
+          "claim_time": 1766890984.031,
+          "request_to_claim_s": 0.03,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766890984.001,
+          "claim_time": 1766890984.101,
+          "request_to_claim_s": 0.1,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766891001.16,
+          "claim_time": 1766891001.466,
+          "request_to_claim_s": 0.306,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.289,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.06,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 29.605,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.986,
+          "new_score": 0.987,
+          "delta": 0.001
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_8_e1adfe",
+      "prompt": "Write Python code to print message AND define print function AND translate output to Arabic AND calculate 3 plus 3 AND explain function",
+      "difficulty": "five_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 10.7,
+        "agent_execution_s": 2.526,
+        "network_overhead_s": 0.317,
+        "broker_round_trip_s": 34.407,
+        "total_time_s": 45.107
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766891211.287,
+          "claim_time": 1766891211.414,
+          "request_to_claim_s": 0.127,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766891211.331,
+          "claim_time": 1766891211.448,
+          "request_to_claim_s": 0.117,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766891211.332,
+          "claim_time": 1766891211.355,
+          "request_to_claim_s": 0.023,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766891213.233,
+          "claim_time": 1766891213.283,
+          "request_to_claim_s": 0.05,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766891228.696,
+          "claim_time": 1766891226.677,
+          "request_to_claim_s": 0,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.154,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.373,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_9_df10d4",
+      "prompt": "Calculate 2 multiplied by 3 AND define product AND translate multiply to Arabic AND write Python code for multiplication AND explain arithmetic",
+      "difficulty": "five_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 3,
+      "timing": {
+        "decomposition_s": 10.921,
+        "agent_execution_s": 3.005,
+        "network_overhead_s": 0.134,
+        "broker_round_trip_s": 32.768,
+        "total_time_s": 43.689
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766891440.871,
+          "claim_time": 1766891440.924,
+          "request_to_claim_s": 0.053,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766891442.714,
+          "claim_time": 1766891442.734,
+          "request_to_claim_s": 0.02,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766891455.207,
+          "claim_time": 1766891455.268,
+          "request_to_claim_s": 0.061,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.175,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 1.336,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 1.494,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_10_dbcd30",
+      "prompt": "Translate goodbye to Arabic AND calculate 20 minus 4 AND define farewell AND write Python code to print goodbye AND explain exit",
+      "difficulty": "five_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 3,
+      "timing": {
+        "decomposition_s": 11.456,
+        "agent_execution_s": 2.722,
+        "network_overhead_s": 0.733,
+        "broker_round_trip_s": 60.417,
+        "total_time_s": 71.873
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766891665.128,
+          "claim_time": 1766891665.196,
+          "request_to_claim_s": 0.068,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766891665.172,
+          "claim_time": 1766891665.2,
+          "request_to_claim_s": 0.028,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766891665.182,
+          "claim_time": 1766891665.182,
+          "request_to_claim_s": 0.0,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766891665.182,
+          "claim_time": 1766891665.267,
+          "request_to_claim_s": 0.085,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766891680.653,
+          "claim_time": 1766891681.205,
+          "request_to_claim_s": 0.552,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.397,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.216,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.108,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.987,
+          "new_score": 0.988,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_11_53e888",
+      "prompt": "Define list AND write Python code to create list AND translate array to Arabic AND calculate 4 plus 4 AND explain what is array",
+      "difficulty": "five_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 5,
+      "timing": {
+        "decomposition_s": 10.231,
+        "agent_execution_s": 6.386,
+        "network_overhead_s": 0.308,
+        "broker_round_trip_s": 37.89,
+        "total_time_s": 48.121
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766891895.734,
+          "claim_time": 1766891895.791,
+          "request_to_claim_s": 0.057,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766891895.778,
+          "claim_time": 1766891895.902,
+          "request_to_claim_s": 0.124,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766891895.779,
+          "claim_time": 1766891895.819,
+          "request_to_claim_s": 0.04,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766891895.779,
+          "claim_time": 1766891895.814,
+          "request_to_claim_s": 0.035,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766891895.779,
+          "claim_time": 1766891895.831,
+          "request_to_claim_s": 0.052,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.349,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.136,
+          "status": "completed"
+        },
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.756,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.16,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 1.985,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.988,
+          "new_score": 0.989,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.935,
+          "new_score": 0.943,
+          "delta": 0.008
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_12_b7eeb9",
+      "prompt": "Calculate 3 multiplied by 4 AND write Python code for addition AND define sum AND translate calculate to Arabic AND explain operation",
+      "difficulty": "five_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 3,
+      "timing": {
+        "decomposition_s": 11.007,
+        "agent_execution_s": 2.803,
+        "network_overhead_s": 0.447,
+        "broker_round_trip_s": 39.322,
+        "total_time_s": 50.329
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766892132.689,
+          "claim_time": 1766892132.727,
+          "request_to_claim_s": 0.038,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766892132.733,
+          "claim_time": 1766892132.817,
+          "request_to_claim_s": 0.084,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766892132.733,
+          "claim_time": 1766892132.756,
+          "request_to_claim_s": 0.023,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766892135.766,
+          "claim_time": 1766892136.068,
+          "request_to_claim_s": 0.302,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766892152.35,
+          "claim_time": 1766892134.962,
+          "request_to_claim_s": 0,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.225,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.484,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.094,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.989,
+          "new_score": 0.99,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_13_91def6",
+      "prompt": "Write Python code for loop AND translate loop to Arabic AND define what is loop AND calculate 30 minus 6 AND explain control flow",
+      "difficulty": "five_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 230.231,
+        "agent_execution_s": 2.266,
+        "network_overhead_s": 0.144,
+        "broker_round_trip_s": 5.173,
+        "total_time_s": 235.404
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766892363.446,
+          "claim_time": 1766892363.533,
+          "request_to_claim_s": 0.087,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766892366.263,
+          "claim_time": 1766892366.32,
+          "request_to_claim_s": 0.057,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 0.276,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 1.99,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.943,
+          "new_score": 0.95,
+          "delta": 0.007
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.99,
+          "new_score": 0.991,
+          "delta": 0.001
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_14_c21ced",
+      "prompt": "Translate yes to Arabic AND calculate square of 2 AND define affirmative AND write Python code to check condition AND explain boolean",
+      "difficulty": "five_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 3,
+      "timing": {
+        "decomposition_s": 245.45,
+        "agent_execution_s": 2.732,
+        "network_overhead_s": 0.571,
+        "broker_round_trip_s": 44.439,
+        "total_time_s": 289.889
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766892602.706,
+          "claim_time": 1766892602.77,
+          "request_to_claim_s": 0.064,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766892602.759,
+          "claim_time": 1766892602.777,
+          "request_to_claim_s": 0.018,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766892602.77,
+          "claim_time": 1766892602.796,
+          "request_to_claim_s": 0.026,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766892602.77,
+          "claim_time": 1766892602.824,
+          "request_to_claim_s": 0.054,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766892608.031,
+          "claim_time": 1766892608.44,
+          "request_to_claim_s": 0.409,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.27,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.361,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.101,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.991,
+          "new_score": 0.992,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_15_1d6da2",
+      "prompt": "Calculate 10 divided by 2 AND define division AND write Python code to divide AND translate quotient to Arabic AND explain remainder",
+      "difficulty": "five_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 3,
+      "timing": {
+        "decomposition_s": 258.962,
+        "agent_execution_s": 2.343,
+        "network_overhead_s": 0.099,
+        "broker_round_trip_s": 7.783,
+        "total_time_s": 266.745
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766892837.797,
+          "claim_time": 1766892837.821,
+          "request_to_claim_s": 0.024,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766892837.841,
+          "claim_time": 1766892837.897,
+          "request_to_claim_s": 0.056,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766892843.532,
+          "claim_time": 1766892843.551,
+          "request_to_claim_s": 0.019,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766892857.047,
+          "claim_time": 1766892840.368,
+          "request_to_claim_s": 0,
+          "claim_agent": "code_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.234,
+          "status": "completed"
+        },
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 0.319,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 1.79,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.95,
+          "new_score": 0.956,
+          "delta": 0.006
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.992,
+          "new_score": 0.992,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_16_adbdd6",
+      "prompt": "Define ML AND translate learning to Arabic AND calculate 5 plus 5 AND write Python code for ML AND explain what is model",
+      "difficulty": "five_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 3,
+      "timing": {
+        "decomposition_s": 223.809,
+        "agent_execution_s": 2.529,
+        "network_overhead_s": 0.62,
+        "broker_round_trip_s": 64.1,
+        "total_time_s": 287.909
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766893068.388,
+          "claim_time": 1766893068.456,
+          "request_to_claim_s": 0.068,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766893068.432,
+          "claim_time": 1766893068.466,
+          "request_to_claim_s": 0.034,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766893068.456,
+          "claim_time": 1766893068.458,
+          "request_to_claim_s": 0.002,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766893068.456,
+          "claim_time": 1766893068.486,
+          "request_to_claim_s": 0.03,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766893083.953,
+          "claim_time": 1766893084.439,
+          "request_to_claim_s": 0.486,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.151,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.221,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.156,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.992,
+          "new_score": 0.993,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_17_0fa7da",
+      "prompt": "Write Python code to get input AND calculate 40 minus 8 AND define input AND translate data to Arabic AND explain user interaction",
+      "difficulty": "five_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 5,
+      "timing": {
+        "decomposition_s": 223.646,
+        "agent_execution_s": 5.644,
+        "network_overhead_s": 0.233,
+        "broker_round_trip_s": 30.105,
+        "total_time_s": 253.751
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766893291.201,
+          "claim_time": 1766893291.272,
+          "request_to_claim_s": 0.071,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766893291.246,
+          "claim_time": 1766893291.271,
+          "request_to_claim_s": 0.025,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766893291.246,
+          "claim_time": 1766893291.302,
+          "request_to_claim_s": 0.056,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766893291.246,
+          "claim_time": 1766893291.279,
+          "request_to_claim_s": 0.033,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766893291.246,
+          "claim_time": 1766893291.294,
+          "request_to_claim_s": 0.048,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.373,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.238,
+          "status": "completed"
+        },
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.772,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.133,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 1.128,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.993,
+          "new_score": 0.994,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.956,
+          "new_score": 0.962,
+          "delta": 0.006
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_18_2ca149",
+      "prompt": "Translate no to Arabic AND define negative AND calculate 4 multiplied by 5 AND write Python code for negation AND explain boolean",
+      "difficulty": "five_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 5,
+      "timing": {
+        "decomposition_s": 10.713,
+        "agent_execution_s": 6.297,
+        "network_overhead_s": 0.17,
+        "broker_round_trip_s": 37.682,
+        "total_time_s": 48.395
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766893515.86,
+          "claim_time": 1766893515.872,
+          "request_to_claim_s": 0.012,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766893515.904,
+          "claim_time": 1766893515.931,
+          "request_to_claim_s": 0.027,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766893515.905,
+          "claim_time": 1766893515.957,
+          "request_to_claim_s": 0.052,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766893515.905,
+          "claim_time": 1766893515.962,
+          "request_to_claim_s": 0.057,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766893515.93,
+          "claim_time": 1766893515.952,
+          "request_to_claim_s": 0.022,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.273,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.219,
+          "status": "completed"
+        },
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.77,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.054,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 1.982,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.994,
+          "new_score": 0.995,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.962,
+          "new_score": 0.967,
+          "delta": 0.005
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_19_fe87db",
+      "prompt": "Calculate 20 divided by 4 AND write Python code to check even AND translate even to Arabic AND define parity AND explain modulo",
+      "difficulty": "five_tasks",
+      "task_type": "single_agent",
+      "status": "completed",
+      "num_agents": 1,
+      "timing": {
+        "decomposition_s": 11.196,
+        "agent_execution_s": 0.235,
+        "network_overhead_s": 0.177,
+        "broker_round_trip_s": 36.659,
+        "total_time_s": 47.855
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766893742.159,
+          "claim_time": 1766893742.2,
+          "request_to_claim_s": 0.041,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766893742.202,
+          "claim_time": 1766893742.293,
+          "request_to_claim_s": 0.091,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766893758.747,
+          "claim_time": 1766893758.792,
+          "request_to_claim_s": 0.045,
+          "claim_agent": "translate_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.235,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_20_9dd863",
+      "prompt": "Define variable AND calculate square of 3 AND translate variable to Arabic AND write Python code to create variable AND explain assignment",
+      "difficulty": "five_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 3,
+      "timing": {
+        "decomposition_s": 9.595,
+        "agent_execution_s": 9.081,
+        "network_overhead_s": 0.752,
+        "broker_round_trip_s": 59.801,
+        "total_time_s": 69.396
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766893967.229,
+          "claim_time": 1766893967.272,
+          "request_to_claim_s": 0.043,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766893967.273,
+          "claim_time": 1766893967.344,
+          "request_to_claim_s": 0.071,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766893967.273,
+          "claim_time": 1766893967.317,
+          "request_to_claim_s": 0.044,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766893967.273,
+          "claim_time": 1766893967.355,
+          "request_to_claim_s": 0.082,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766893983.204,
+          "claim_time": 1766893983.716,
+          "request_to_claim_s": 0.512,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.186,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 6.961,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 1.933,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.995,
+          "new_score": 0.995,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_21_6c1ced",
+      "prompt": "Write Python code for condition AND translate condition to Arabic AND calculate 5 multiplied by 6 AND define conditional AND explain if statement",
+      "difficulty": "five_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 11.716,
+        "agent_execution_s": 2.496,
+        "network_overhead_s": 0.199,
+        "broker_round_trip_s": 21.3,
+        "total_time_s": 33.016
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766894181.037,
+          "claim_time": 1766894181.127,
+          "request_to_claim_s": 0.09,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766894181.081,
+          "claim_time": 1766894181.136,
+          "request_to_claim_s": 0.055,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766894181.082,
+          "claim_time": 1766894181.136,
+          "request_to_claim_s": 0.054,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766894196.602,
+          "claim_time": 1766894181.505,
+          "request_to_claim_s": 0,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.157,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.339,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.995,
+          "new_score": 0.996,
+          "delta": 0.001
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_22_87cc3a",
+      "prompt": "Translate please to Arabic AND calculate 30 divided by 5 AND define politeness AND write Python code to print please AND explain courtesy",
+      "difficulty": "five_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 3,
+      "timing": {
+        "decomposition_s": 10.985,
+        "agent_execution_s": 2.923,
+        "network_overhead_s": 0.558,
+        "broker_round_trip_s": 40.144,
+        "total_time_s": 51.129
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766894403.244,
+          "claim_time": 1766894403.268,
+          "request_to_claim_s": 0.024,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766894403.288,
+          "claim_time": 1766894403.331,
+          "request_to_claim_s": 0.043,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766894403.288,
+          "claim_time": 1766894403.304,
+          "request_to_claim_s": 0.016,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766894403.288,
+          "claim_time": 1766894403.354,
+          "request_to_claim_s": 0.066,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766894404.676,
+          "claim_time": 1766894405.085,
+          "request_to_claim_s": 0.409,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 0.532,
+          "status": "completed"
+        },
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.355,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.037,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.996,
+          "new_score": 0.996,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_23_547199",
+      "prompt": "Calculate 50 minus 10 AND define subtraction AND write Python code to subtract AND translate difference to Arabic AND explain operation",
+      "difficulty": "five_tasks",
+      "task_type": "sequential",
+      "status": "completed",
+      "num_agents": 4,
+      "timing": {
+        "decomposition_s": 12.601,
+        "agent_execution_s": 31.076,
+        "network_overhead_s": 0.157,
+        "broker_round_trip_s": 158.114,
+        "total_time_s": 170.715
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766894633.844,
+          "claim_time": 1766894633.9,
+          "request_to_claim_s": 0.056,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766894633.888,
+          "claim_time": 1766894633.905,
+          "request_to_claim_s": 0.017,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766894652.483,
+          "claim_time": 1766894652.523,
+          "request_to_claim_s": 0.04,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766894653.914,
+          "claim_time": 1766894636.372,
+          "request_to_claim_s": 0,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766894670.094,
+          "claim_time": 1766894670.138,
+          "request_to_claim_s": 0.044,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.243,
+          "status": "completed"
+        },
+        {
+          "agent_id": "code_agent_1",
+          "execution_time_s": 1.829,
+          "status": "completed"
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "execution_time_s": 17.393,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 11.612,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.967,
+          "new_score": 0.971,
+          "delta": 0.004
+        },
+        {
+          "agent_id": "translate_agent_1",
+          "agent_type": "translate",
+          "old_score": 0.996,
+          "new_score": 0.996,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "task_id": "five_tasks_24_767d16",
+      "prompt": "Define string AND calculate square of 4 AND write Python code to create string AND translate text to Arabic AND explain concatenation",
+      "difficulty": "five_tasks",
+      "task_type": "parallel",
+      "status": "completed",
+      "num_agents": 2,
+      "timing": {
+        "decomposition_s": 8.691,
+        "agent_execution_s": 2.322,
+        "network_overhead_s": 0.186,
+        "broker_round_trip_s": 2.662,
+        "total_time_s": 11.353
+      },
+      "network_overhead_breakdown": [
+        {
+          "subtask_id": "1",
+          "request_time": 1766894863.028,
+          "claim_time": 1766894863.052,
+          "request_to_claim_s": 0.024,
+          "claim_agent": "text_agent_1"
+        },
+        {
+          "subtask_id": "2",
+          "request_time": 1766894863.03,
+          "claim_time": 1766894863.074,
+          "request_to_claim_s": 0.044,
+          "claim_agent": "math_agent_1"
+        },
+        {
+          "subtask_id": "3",
+          "request_time": 1766894863.03,
+          "claim_time": 1766894863.117,
+          "request_to_claim_s": 0.087,
+          "claim_agent": "code_agent_1"
+        },
+        {
+          "subtask_id": "4",
+          "request_time": 1766894863.041,
+          "claim_time": 1766894863.072,
+          "request_to_claim_s": 0.031,
+          "claim_agent": "translate_agent_1"
+        },
+        {
+          "subtask_id": "5",
+          "request_time": 1766894878.542,
+          "claim_time": 1766894863.949,
+          "request_to_claim_s": 0,
+          "claim_agent": "text_agent_1"
+        }
+      ],
+      "agents": [
+        {
+          "agent_id": "math_agent_1",
+          "execution_time_s": 0.19,
+          "status": "completed"
+        },
+        {
+          "agent_id": "text_agent_1",
+          "execution_time_s": 2.132,
+          "status": "completed"
+        }
+      ],
+      "reputation_updates": [
+        {
+          "agent_id": "math_agent_1",
+          "agent_type": "math",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        },
+        {
+          "agent_id": "text_agent_1",
+          "agent_type": "text",
+          "old_score": 0.997,
+          "new_score": 0.997,
+          "delta": 0.0
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "by_task_type": {
+      "single_agent": {
+        "count": 29,
+        "avg_decomposition_s": 61.598,
+        "avg_execution_s": 1.249,
+        "avg_network_overhead_s": 0.467,
+        "avg_broker_round_trip_s": 15.215,
+        "avg_total_time_s": 76.812
+      },
+      "parallel": {
+        "count": 47,
+        "avg_decomposition_s": 73.626,
+        "avg_execution_s": 4.39,
+        "avg_network_overhead_s": 0.435,
+        "avg_broker_round_trip_s": 27.626,
+        "avg_total_time_s": 101.252
+      },
+      "sequential": {
+        "count": 17,
+        "avg_decomposition_s": 106.489,
+        "avg_execution_s": 4.165,
+        "avg_network_overhead_s": 0.22,
+        "avg_broker_round_trip_s": 28.402,
+        "avg_total_time_s": 134.891
+      }
+    },
+    "by_agent_type": {
+      "code": {
+        "tasks_handled": 23,
+        "total_execution_s": 35.646,
+        "avg_execution_s": 1.55
+      },
+      "text": {
+        "tasks_handled": 63,
+        "total_execution_s": 154.008,
+        "avg_execution_s": 2.445
+      },
+      "math": {
+        "tasks_handled": 56,
+        "total_execution_s": 15.883,
+        "avg_execution_s": 0.284
+      },
+      "translate": {
+        "tasks_handled": 56,
+        "total_execution_s": 107.817,
+        "avg_execution_s": 1.925
+      }
+    },
+    "by_difficulty": {
+      "single_task": {
+        "count": 25,
+        "avg_decomposition_s": 62.489,
+        "avg_execution_s": 1.406,
+        "avg_network_overhead_s": 0.508,
+        "avg_broker_round_trip_s": 11.923,
+        "avg_total_time_s": 74.412
+      },
+      "two_tasks": {
+        "count": 24,
+        "avg_decomposition_s": 65.77,
+        "avg_execution_s": 3.276,
+        "avg_network_overhead_s": 0.497,
+        "avg_broker_round_trip_s": 16.41,
+        "avg_total_time_s": 82.179
+      },
+      "four_tasks": {
+        "count": 22,
+        "avg_decomposition_s": 116.087,
+        "avg_execution_s": 3.347,
+        "avg_network_overhead_s": 0.256,
+        "avg_broker_round_trip_s": 22.387,
+        "avg_total_time_s": 138.474
+      },
+      "five_tasks": {
+        "count": 22,
+        "avg_decomposition_s": 61.93,
+        "avg_execution_s": 5.724,
+        "avg_network_overhead_s": 0.339,
+        "avg_broker_round_trip_s": 47.184,
+        "avg_total_time_s": 109.115
+      }
+    }
+  },
+  "reputation_final": {
+    "code": {
+      "code_agent_1": {
+        "score": 0.971,
+        "job_count": 20,
+        "tcr_percentage": 1.0
+      },
+      "code_agent_2": {
+        "score": 0.2,
+        "job_count": 0,
+        "tcr_percentage": 0.0
+      }
+    },
+    "text": {
+      "text_agent_1": {
+        "score": 0.997,
+        "job_count": 20,
+        "tcr_percentage": 1.0
+      }
+    },
+    "math": {
+      "math_agent_1": {
+        "score": 0.997,
+        "job_count": 20,
+        "tcr_percentage": 1.0
+      }
+    },
+    "translate": {
+      "translate_agent_1": {
+        "score": 0.996,
+        "job_count": 20,
+        "tcr_percentage": 1.0
+      }
+    }
+  }
+}

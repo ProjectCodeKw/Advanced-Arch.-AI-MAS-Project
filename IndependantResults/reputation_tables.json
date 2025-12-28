@@ -1,0 +1,274 @@
+{
+  "code": {
+    "code_agent_1": {
+      "score": 0.971,
+      "TCR": [
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        }
+      ]
+    },
+    "code_agent_2": {
+      "score": 0.2,
+      "TCR": []
+    }
+  },
+  "text": {
+    "text_agent_1": {
+      "score": 0.997,
+      "TCR": [
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        }
+      ]
+    }
+  },
+  "math": {
+    "math_agent_1": {
+      "score": 0.997,
+      "TCR": [
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        }
+      ]
+    }
+  },
+  "translate": {
+    "translate_agent_1": {
+      "score": 0.996,
+      "TCR": [
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        },
+        {
+          "completed": true
+        }
+      ]
+    }
+  }
+}

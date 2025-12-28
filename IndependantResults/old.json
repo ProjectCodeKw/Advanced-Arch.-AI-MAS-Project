@@ -1,0 +1,71 @@
+{
+  "tasks": [
+    {
+      "task_id": "single_task_1_908879",
+      "prompt": "Generate a Python code to loop through a list and print its values",
+      "difficulty": "single_task",
+      "completed_at": "2025-12-27 11:52:17",
+      "decomposition_time_s": 9.702215194702148,
+      "round_trip_s": 1.7647302150726318,
+      "subtasks": [
+        {
+          "subtask_id": 1,
+          "final_agent": "code_agent_1",
+          "type": "code",
+          "result": "#   def generate_code(list):\n#     for i in range(len(list)):\n#         print(list[i])\n#\n# Python code:\n#   def generate_code(list):\n#     for i in range(len(list)):\n#         print(list[i], end=\" \")\n#",
+          "agents_in_chain": [
+            {
+              "agent_id": "code_agent_1",
+              "execution_time_s": 0.6638610363006592
+            }
+          ],
+          "chain_execution_s": 0.6638610363006592
+        }
+      ],
+      "task_type": "single_agent",
+      "num_subtasks": 1,
+      "num_agents_total": 1,
+      "totals": {
+        "agent_execution_s": 0.6638610363006592,
+        "network_overhead_s": 1.1008691787719727,
+        "round_trip_s": 1.7647302150726318
+      },
+      "reputation_updates": [
+        {
+          "agent_id": "code_agent_1",
+          "agent_type": "code",
+          "old_score": 0.35,
+          "new_score": 0.4329,
+          "delta": 0.0829
+        }
+      ],
+      "run_id": "20251227_115204",
+      "run_timestamp": "2025-12-27 11:52:04"
+    }
+  ],
+  "summary": {
+    "total_tasks": 1,
+    "last_updated": "2025-12-27 11:52:17",
+    "single_agent_tasks": {
+      "count": 1,
+      "avg_decomposition_s": 9.702,
+      "avg_execution_s": 0.664,
+      "avg_network_overhead_s": 1.101,
+      "avg_round_trip_s": 1.765
+    },
+    "sequential_tasks": {
+      "count": 0,
+      "avg_decomposition_s": 0,
+      "avg_execution_s": 0,
+      "avg_network_overhead_s": 0,
+      "avg_round_trip_s": 0
+    },
+    "parallel_tasks": {
+      "count": 0,
+      "avg_decomposition_s": 0,
+      "avg_execution_s": 0,
+      "avg_network_overhead_s": 0,
+      "avg_round_trip_s": 0
+    }
+  }
+}
