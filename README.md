@@ -13,9 +13,9 @@ Each branch contains the code for a specific agent's virtual machine. The main c
 - **main**: Primary branch with shared resources and documentation
 - **mini-orch**: Contains the Mini Orchestrator implementation
 
-### Mini-Orch (Orchestrator Agent)
+### Benchmark (Orchestrator Benchmarking)
 
-Located in `Mini-Orch/`, this is the central orchestration component that:
+Located in `Benchmark/`, this contains the benchmarking infrastructure for evaluating the orchestrator:
 
 - **Model**: Uses Microsoft Phi-3.5-mini-instruct (quantized Q4_K_M GGUF format) for efficient inference
 - **Task Decomposition**: Routes incoming prompts to appropriate specialized agents based on task type
@@ -24,13 +24,15 @@ Located in `Mini-Orch/`, this is the central orchestration component that:
 #### Directory Structure
 
 ```
-Mini-Orch/
+Benchmark/
 ├── model/
 │   ├── main.py              # Orchestrator benchmarking script
 │   ├── download_model.py    # Model download utilities
 │   ├── download_phi35.py    # Phi-3.5 specific downloader
 │   ├── phi3-5/              # Model weights directory
 │   └── benchmark/           # Benchmark results and test data
+│       ├── RAM4GB/          # Results from 4GB RAM environment
+│       └── *.json/jsonl     # Latest benchmark results
 ├── requirements.txt         # Python dependencies
 └── venv/                    # Python virtual environment
 ```
@@ -43,6 +45,13 @@ The orchestrator routes tasks to the following specialized agents:
 2. **Code Agent** (`tasks/code`): Code generation (Python, JavaScript, SQL), debugging, API integration
 3. **Math Agent** (`tasks/math`): Mathematical calculations, statistical analysis, formula derivation
 4. **Image Generator Agent** (`tasks/image`): Image generation from text descriptions
+
+## Benchmark Results
+
+Benchmark results are stored in `Benchmark/model/benchmark/`:
+
+- **Latest results**: `orchestrator_stats_20251228_140645.json`, `orchestrator_benchmark_20251228_140645.json`
+- **4GB RAM environment results**: `RAM4GB/accuracy.json`
 
 ## Dependencies
 
@@ -57,7 +66,7 @@ Key Python packages used:
 ## Getting Started
 
 1. Clone the repository and checkout the desired branch
-2. Navigate to the agent directory (e.g., `Mini-Orch/`)
+2. Navigate to the agent directory (e.g., `Benchmark/`)
 3. Create and activate the virtual environment
 4. Install dependencies: `pip install -r requirements.txt`
 5. Download the model using the provided scripts
@@ -65,11 +74,9 @@ Key Python packages used:
 
 ## Benchmarking
 
-The orchestrator includes a comprehensive benchmark suite that tests task decomposition across four complexity levels:
+The orchestrator includes a comprehensive benchmark suite that tests task decomposition across complexity levels:
 
-- **Easy**: Clear, single-task prompts
-- **Medium**: Multi-task prompts with both independent and dependent operations
-- **Hard**: Complex prompts requiring careful task sequencing
-- **Very Hard**: Ambiguous or challenging decomposition scenarios
+- **Easy**: Clear, single-task prompts (25 prompts)
+- **Medium**: Multi-task prompts with both independent and dependent operations (25 prompts)
 
-Benchmark results are stored in `Mini-Orch/model/benchmark/`. 
+Benchmark results are stored in `Benchmark/model/benchmark/`.
