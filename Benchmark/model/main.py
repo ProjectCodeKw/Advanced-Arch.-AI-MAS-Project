@@ -113,7 +113,7 @@ PROMPTS = {
 
 def load_model():
     """Load Phi-3.5-mini-instruct GGUF model"""
-    MODEL_PATH = "model/phi3-5/Phi-3.5-mini-instruct-Q4_K_M.gguf"
+    MODEL_PATH = "/home/ai-mas/arch-ai-mas/Advanced-Arch.-AI-MAS-Project/Benchmark/model/phi3-5/Phi-3.5-mini-instruct-Q4_K_M.gguf"
 
     print(f"Loading Phi-3.5-mini-instruct from {MODEL_PATH}...")
     print("=" * 70)

@@ -1,0 +1,41 @@
+
+================================================================================
+BENCHMARK RUN - 2025-12-28 15:23:04
+================================================================================
+Model: microsoft/Phi-3.5-mini-instruct
+Total Prompts: 50
+Successful: 50
+Failed: 0
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY STATISTICS
+────────────────────────────────────────────────────────────────────────────────
+
+EASY Category:
+  Count:           25 prompts
+  Average Time:    89.645s
+  Median Time:     12.082s
+  Min Time:        7.031s
+  Max Time:        331.619s
+  Std Deviation:   120.278s
+
+MEDIUM Category:
+  Count:           25 prompts
+  Average Time:    93.488s
+  Median Time:     12.092s
+  Min Time:        6.290s
+  Max Time:        268.590s
+  Std Deviation:   112.615s
+
+────────────────────────────────────────────────────────────────────────────────
+OVERALL STATISTICS
+────────────────────────────────────────────────────────────────────────────────
+  Total Successful: 50 prompts
+  Average Time:     91.566s
+  Median Time:      12.087s
+  Min Time:         6.290s
+  Max Time:         331.619s
+  Std Deviation:    115.331s
+
+================================================================================
+
